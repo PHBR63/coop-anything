@@ -1,0 +1,29 @@
+{
+  "source_commit": "cbb37dc16c164877f50a8a00af673fb1874fddbb",
+  "files_expected": 549,
+  "files_validated": 549,
+  "counts": {
+    "inline_occurrences": 26893,
+    "fences": 257,
+    "headings": 3239,
+    "markdown": 246,
+    "yaml": 6,
+    "byte_identical_protected": 35,
+    "json": 14,
+    "script": 20,
+    "supplement_preserved_type": 3,
+    "python_AST": 146,
+    "c_family": 88
+  },
+  "directory_notes_translated": 364,
+  "errors": [],
+  "project_code_executed": false,
+  "validation_scope": "Static syntax, structure, protected literals and source hashes; no project code or runtime tests executed.",
+  "line_ending_postcheck": {
+    "files_refreshed": [
+      "games/divinity-2-developers-cut/stage1/build.ps1"
+    ],
+    "machine_lines_identical": true,
+    "all_549_translation_hashes_current": true
+  }
+}

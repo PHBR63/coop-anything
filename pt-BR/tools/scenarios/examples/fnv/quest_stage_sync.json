@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "name": "quest_stage_sync",
+  "title": "Sincronização das etapas da missão",
+  "description": "As etapas de uma missão são definidas pelas duas máquinas. Cada definição precisa aparecer em todas as máquinas, e etapas anteriores devem continuar concluídas. Os passos contêm `dirties: []` porque definir uma etapa só altera o estado da missão, que o salto reinicializa no próprio local; assim, o próximo cenário não precisa recarregar um salvamento.",
+  "players": 2,
+  "tags": ["quest", "2p"],
+  "start": {"save": "autosave"},
+  "reset": {"keys": ["$quest"]},
+  "objects": {
+    "quest": {"id": "VCG02", "kind": "state"}
+  },
+  "refs": {"quest": "$quest", "stages": [10, 20, 100]},
+  "setup": [
+    {"id": "settle", "op": "wait", "seconds": 1}
+  ],
+  "steps": [
+    {"id": "starts_at_zero", "op": "check", "kind": "state", "key": "$quest", "value": 0},
+    {"id": "host_sets_10", "op": "set_state", "key": "$quest", "value": 10, "on": "host", "dirties": []},
+    {"id": "stage_10_everywhere", "op": "check", "kind": "state", "key": "$quest", "value": 10, "timeout": 10},
+    {"id": "guest_sets_20", "op": "set_state", "key": "$quest", "value": 20, "on": "guest", "dirties": []},
+    {"id": "stage_20_everywhere", "op": "check", "kind": "state", "key": "$quest", "value": 20, "timeout": 10},
+    {"id": "stage_10_stays_done", "op": "check", "kind": "state_reached", "key": "$quest", "at": 10, "value": 1},
+    {"id": "host_sets_100", "op": "set_state", "key": "$quest", "value": 100, "on": "host", "dirties": []},
+    {"id": "stage_100_everywhere", "op": "check", "kind": "state", "key": "$quest", "value": 100, "timeout": 10},
+    {"id": "stage_20_stays_done", "op": "check", "kind": "state_reached", "key": "$quest", "at": 20, "value": 1}
+  ]
+}

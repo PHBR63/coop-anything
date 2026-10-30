@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "name": "ownership_handoff",
+  "title": "Transferência de responsabilidade: o host se afasta durante o combate",
+  "description": "Os dois jogadores estão junto aos raiders. O host corre para uma cidade distante enquanto os raiders continuam vivos, fazendo-os sair da área carregada pelo host. O controle dos raiders precisa passar ao convidado (índice de responsável 1); todas as máquinas precisam concordar sobre o responsável, e uma morte causada pelo convidado depois disso deve aparecer no host. A verificação de responsabilidade exige um adaptador que leia `owner`; sem ele, os passos são relatados como bloqueados, nunca aprovados.",
+  "players": 2,
+  "tags": ["ownership", "combat", "2p"],
+  "start": {"save": "autosave"},
+  "objects": {
+    "raider1": {"id": "GSPG01Ref", "kind": "actor"},
+    "raider2": {"id": "GSPG02Ref", "kind": "actor"},
+    "farTown": {"id": "NovacMapMarker", "kind": "thing"}
+  },
+  "refs": {"raiders": ["$raider1", "$raider2"], "far_pos": {"ref": "$farTown", "dist": 400}, "near_pos": {"ref": "$raider1", "dist": 300}},
+  "setup": [
+    {"id": "enable_raider1", "op": "enable", "ref": "$raider1"},
+    {"id": "enable_raider2", "op": "enable", "ref": "$raider2"},
+    {"id": "players_to_raiders", "op": "move", "who": "player", "to": "$raider1", "on": "all"},
+    {"id": "settle", "op": "wait", "seconds": 3}
+  ],
+  "steps": [
+    {"id": "host_owns_at_start", "op": "check", "kind": "owner", "ref": "$raider1", "value": 0},
+    {"id": "host_walks_away", "op": "move", "who": "player", "to": "$farTown", "on": "host"},
+    {"id": "hand_off_window", "op": "wait", "seconds": 8},
+    {"id": "guest_owns_after", "op": "check", "kind": "owner", "ref": "$raider1", "value": 1, "timeout": 20},
+    {"id": "alive_state_agreed", "op": "check", "kind": "dead", "ref": "$raider1", "cmp": "same"},
+    {"id": "guest_kills_1", "op": "kill", "ref": "$raider1", "on": "guest"},
+    {"id": "host_sees_the_kill", "op": "check", "kind": "dead", "ref": "$raider1", "value": 1, "timeout": 10, "on": "host"}
+  ]
+}

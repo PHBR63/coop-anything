@@ -1,0 +1,4 @@
+# Proxies compilados são reproduzíveis por build.ps1 (llvm-mingw, i686); seus SHA-256 são
+# registrados em NOTES.md. Binários nunca são comitados (regra do repositório: sem .dll em PRs).
+*.dll
+*.log

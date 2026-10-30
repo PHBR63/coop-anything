@@ -1,0 +1,3710 @@
+{
+  "stage": "navigation",
+  "applied": true,
+  "files": [
+    {
+      "path": ".agents/skills/coop-build-from-zero/SKILL.md",
+      "source_sha256": "036da8b905ac781eb3923f0d70607ec69e9edd31a8d234e3ff9d16f2c41cc349",
+      "before_navigation_sha256": "d40c7ce001f838c6074b8437d430f85f55cc20213d5201c426945ffbb5126e98",
+      "after_navigation_sha256": "707211de95bd688fc81687ae41f9c5aa5b5ac0bc0dcb1f1fd6cefe130d12b713",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".agents/skills/coop-console-emulator/SKILL.md",
+      "source_sha256": "7a72e48e95672df702ff74af22de89d4c3fc41afcc71a26e63dd58b267a33f18",
+      "before_navigation_sha256": "2d7db4832be6ce1d7a900a6e28fd79797c7185a00ccb531afe9cbc45f4d80f56",
+      "after_navigation_sha256": "02cd5a72aab16cff00eac7560c7a8c9670467001a6a89fb951521ca8ab198c62",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".agents/skills/coop-contribute/SKILL.md",
+      "source_sha256": "b5776f568c23e6db88e401f3045528a2a1cffe1d93f400a0572075c60f52d78c",
+      "before_navigation_sha256": "5c628afa0c2f6a72e47d2b3fc46dd89370f3cae09449f7894488060754df0c0b",
+      "after_navigation_sha256": "1b6e47bb967dbee79c97f0877aa864f9f3369e7de8ae024c9c0da0f49e5374fd",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".agents/skills/coop-decomp-port/SKILL.md",
+      "source_sha256": "5d36ccbbc7ec2908491e01c6deed98bcad0f5d1cbd89ab37e9c90b126b292814",
+      "before_navigation_sha256": "c476307d6cf0995661f655bf68d5340d75ec92130f14a5702128c533d8ce8a17",
+      "after_navigation_sha256": "49443d98b32c45763c72ab0aa471cc8dfc5897fc1e90dd49a1c7e69d4da7e743",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".agents/skills/coop-networking/SKILL.md",
+      "source_sha256": "756d8a9736e02cbbd8afc7a6967ac3f3f443b489d990e44201ce8a1363af8936",
+      "before_navigation_sha256": "ed990bfe8dd40bd648f36991dd30be4548662b2277590b3458f5f8ace1d493ce",
+      "after_navigation_sha256": "91e9ff74fbf88add1b8dc0f68cc9b94078ef3e84933713362a5481bfe57a4bf2",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".agents/skills/coop-qa/SKILL.md",
+      "source_sha256": "17b0f336633b5e0e551cb2e55e9d00c90432d3a492a983d5ee88530f889382c1",
+      "before_navigation_sha256": "afd6345f4fa40641596f4bec9e94135674988e791a08ca674564b3b0dac86e65",
+      "after_navigation_sha256": "eae92d9cddd756d8c6fad74ff409cf9e663e3c969da3fdb22fd814fa00d2e759",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".agents/skills/coop-research/SKILL.md",
+      "source_sha256": "0d842572c30c91c0ce2b52165467d44c1bd4a8183167b9bab0ac237be7463b07",
+      "before_navigation_sha256": "5aca70a3d05cd2e8eaae85b2538f679e21cd1acdf0332e4d6a4bd88681b9f752",
+      "after_navigation_sha256": "84fbb78a5aba90af38c6cd2462e09007d958dc30991d7036e4677264b2cc96e5",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".agents/skills/coop-reverse-engineer/SKILL.md",
+      "source_sha256": "30456f1376fe30793590e016937a6c4ecde4e1454c829c892200c18bda42a28b",
+      "before_navigation_sha256": "03feb90b25d396bc289f0da55655d94090009fddebc9e9e3c3bcac9538b5be27",
+      "after_navigation_sha256": "88b2a629b545e9f8cc1ae5f85e8967eb1fd12ade78644707d492789c08e4c164",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".agents/skills/coop-revive/SKILL.md",
+      "source_sha256": "0eccee27d2845eb6f3b2758b8d436f5f813d6668472f3540875f5df29ae5f700",
+      "before_navigation_sha256": "262f4fe5d7e2439af642bbad2cdd8933015c0a3b79a87253144efc13f004a714",
+      "after_navigation_sha256": "94d3350b23874a2144a799fb96e2d4c3c1ebc58db367110a2c140bfb9be50122",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".agents/skills/coop-switch/SKILL.md",
+      "source_sha256": "e01e97505885a3b1bdb17e25a9a901980bea0cec2290a267cd9a28cc6106f4bc",
+      "before_navigation_sha256": "42ace57331368e9734382ff50cf0bfd0d7ff28b0b02f38502530f84fbf3abe47",
+      "after_navigation_sha256": "85d1b660b2fc4aed603db15adf4a0715846fddbefc31a562cd9d1879e74e514a",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".agents/skills/coop-sync-testing/SKILL.md",
+      "source_sha256": "025dc7d3f345529641399f1427ea5a022e4159f2c95e135b57a765d71a4c9b22",
+      "before_navigation_sha256": "43f740677679d0fce8554a6e6f88e5de469ad329ffe1bec1645364182df7bd25",
+      "after_navigation_sha256": "5121e5f2d120251f3bdeb43fab0dae2d534c8c90749dee1644ce3a8a43e53966",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".agents/skills/coop-triage/SKILL.md",
+      "source_sha256": "12c95f55868c87d90c238ae6ac9a03c2da3550314b89c5d45b54e5b60a51311d",
+      "before_navigation_sha256": "daeedd964e3d36c8a4a379f7d43fe4645f25c0ee945f39fa1e64f6b45c0b9133",
+      "after_navigation_sha256": "7657bf53247dc45fe53c0ed557cd52c83332ebb8b3664dececf9b6e3a9820355",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".agents/skills/triage-contributions/SKILL.md",
+      "source_sha256": "7f1a40a1f2071d52e3594a3d0c77fe92efc7b1799e86e6aaf9ecd5289233a3ff",
+      "before_navigation_sha256": "0668c8bd468d851cacf67fc657bfbe94847bfef871f9046d9c9b07052a333a58",
+      "after_navigation_sha256": "22fdaec1cbb8a81d46e9868dcb4fe5d2c3e5e4d07f8aca69520509e963e7287d",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".claude/skills/coop-build-from-zero/SKILL.md",
+      "source_sha256": "036da8b905ac781eb3923f0d70607ec69e9edd31a8d234e3ff9d16f2c41cc349",
+      "before_navigation_sha256": "d40c7ce001f838c6074b8437d430f85f55cc20213d5201c426945ffbb5126e98",
+      "after_navigation_sha256": "707211de95bd688fc81687ae41f9c5aa5b5ac0bc0dcb1f1fd6cefe130d12b713",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".claude/skills/coop-console-emulator/SKILL.md",
+      "source_sha256": "7a72e48e95672df702ff74af22de89d4c3fc41afcc71a26e63dd58b267a33f18",
+      "before_navigation_sha256": "2d7db4832be6ce1d7a900a6e28fd79797c7185a00ccb531afe9cbc45f4d80f56",
+      "after_navigation_sha256": "02cd5a72aab16cff00eac7560c7a8c9670467001a6a89fb951521ca8ab198c62",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".claude/skills/coop-contribute/SKILL.md",
+      "source_sha256": "b5776f568c23e6db88e401f3045528a2a1cffe1d93f400a0572075c60f52d78c",
+      "before_navigation_sha256": "5c628afa0c2f6a72e47d2b3fc46dd89370f3cae09449f7894488060754df0c0b",
+      "after_navigation_sha256": "1b6e47bb967dbee79c97f0877aa864f9f3369e7de8ae024c9c0da0f49e5374fd",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".claude/skills/coop-decomp-port/SKILL.md",
+      "source_sha256": "5d36ccbbc7ec2908491e01c6deed98bcad0f5d1cbd89ab37e9c90b126b292814",
+      "before_navigation_sha256": "c476307d6cf0995661f655bf68d5340d75ec92130f14a5702128c533d8ce8a17",
+      "after_navigation_sha256": "49443d98b32c45763c72ab0aa471cc8dfc5897fc1e90dd49a1c7e69d4da7e743",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".claude/skills/coop-networking/SKILL.md",
+      "source_sha256": "756d8a9736e02cbbd8afc7a6967ac3f3f443b489d990e44201ce8a1363af8936",
+      "before_navigation_sha256": "ed990bfe8dd40bd648f36991dd30be4548662b2277590b3458f5f8ace1d493ce",
+      "after_navigation_sha256": "91e9ff74fbf88add1b8dc0f68cc9b94078ef3e84933713362a5481bfe57a4bf2",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".claude/skills/coop-qa/SKILL.md",
+      "source_sha256": "17b0f336633b5e0e551cb2e55e9d00c90432d3a492a983d5ee88530f889382c1",
+      "before_navigation_sha256": "afd6345f4fa40641596f4bec9e94135674988e791a08ca674564b3b0dac86e65",
+      "after_navigation_sha256": "eae92d9cddd756d8c6fad74ff409cf9e663e3c969da3fdb22fd814fa00d2e759",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".claude/skills/coop-research/SKILL.md",
+      "source_sha256": "0d842572c30c91c0ce2b52165467d44c1bd4a8183167b9bab0ac237be7463b07",
+      "before_navigation_sha256": "5aca70a3d05cd2e8eaae85b2538f679e21cd1acdf0332e4d6a4bd88681b9f752",
+      "after_navigation_sha256": "84fbb78a5aba90af38c6cd2462e09007d958dc30991d7036e4677264b2cc96e5",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".claude/skills/coop-reverse-engineer/SKILL.md",
+      "source_sha256": "30456f1376fe30793590e016937a6c4ecde4e1454c829c892200c18bda42a28b",
+      "before_navigation_sha256": "03feb90b25d396bc289f0da55655d94090009fddebc9e9e3c3bcac9538b5be27",
+      "after_navigation_sha256": "88b2a629b545e9f8cc1ae5f85e8967eb1fd12ade78644707d492789c08e4c164",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".claude/skills/coop-revive/SKILL.md",
+      "source_sha256": "0eccee27d2845eb6f3b2758b8d436f5f813d6668472f3540875f5df29ae5f700",
+      "before_navigation_sha256": "262f4fe5d7e2439af642bbad2cdd8933015c0a3b79a87253144efc13f004a714",
+      "after_navigation_sha256": "94d3350b23874a2144a799fb96e2d4c3c1ebc58db367110a2c140bfb9be50122",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".claude/skills/coop-switch/SKILL.md",
+      "source_sha256": "e01e97505885a3b1bdb17e25a9a901980bea0cec2290a267cd9a28cc6106f4bc",
+      "before_navigation_sha256": "42ace57331368e9734382ff50cf0bfd0d7ff28b0b02f38502530f84fbf3abe47",
+      "after_navigation_sha256": "85d1b660b2fc4aed603db15adf4a0715846fddbefc31a562cd9d1879e74e514a",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".claude/skills/coop-sync-testing/SKILL.md",
+      "source_sha256": "025dc7d3f345529641399f1427ea5a022e4159f2c95e135b57a765d71a4c9b22",
+      "before_navigation_sha256": "43f740677679d0fce8554a6e6f88e5de469ad329ffe1bec1645364182df7bd25",
+      "after_navigation_sha256": "5121e5f2d120251f3bdeb43fab0dae2d534c8c90749dee1644ce3a8a43e53966",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".claude/skills/coop-triage/SKILL.md",
+      "source_sha256": "12c95f55868c87d90c238ae6ac9a03c2da3550314b89c5d45b54e5b60a51311d",
+      "before_navigation_sha256": "daeedd964e3d36c8a4a379f7d43fe4645f25c0ee945f39fa1e64f6b45c0b9133",
+      "after_navigation_sha256": "7657bf53247dc45fe53c0ed557cd52c83332ebb8b3664dececf9b6e3a9820355",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".claude/skills/couchlink/SKILL.md",
+      "source_sha256": "73e4c1d71a1a4b1dbf5ff51d6f145bc63f9c4343056ede204d746ef798e3b82a",
+      "before_navigation_sha256": "a4d90bf466b19a319daf8f8f5564a4dc4b2094b3dd1f1980f74820cdf2ff9bbc",
+      "after_navigation_sha256": "956f953e50f74989befa0f36ac8bfee7ff56e6abfca60beb0f0f3a6665ddb594",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".claude/skills/triage-contributions/SKILL.md",
+      "source_sha256": "7f1a40a1f2071d52e3594a3d0c77fe92efc7b1799e86e6aaf9ecd5289233a3ff",
+      "before_navigation_sha256": "0668c8bd468d851cacf67fc657bfbe94847bfef871f9046d9c9b07052a333a58",
+      "after_navigation_sha256": "22fdaec1cbb8a81d46e9868dcb4fe5d2c3e5e4d07f8aca69520509e963e7287d",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "source_sha256": "d41a265caded4314e2a19cc7e384645b86b02d51660bade5e735867819289805",
+      "before_navigation_sha256": "93de86bc61216f20d9f4853863ac117a74889eb638a212f968b47b7db309449d",
+      "after_navigation_sha256": "fe1fe264f7c835df8ca3f5e934a35ee953a343208ffd62ce4475d5c468090eb3",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "AGENTS.md",
+      "source_sha256": "100c9bf57a2af8655605ddc0e71ea48341472bde674e6df96ca01ad155979f52",
+      "before_navigation_sha256": "58320a246b3cb2ed9686fc8b89c535cb32ddac3f2d4e0f3baea753e17588c458",
+      "after_navigation_sha256": "398170436c5621c34cc1a66eda94134018848bd116a0f3932e0c2352a83cf46f",
+      "changed": true,
+      "aliases_added": 0,
+      "destinations_changed": 31,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "CLAUDE.md",
+      "source_sha256": "d631d88045f74623d568adfb4783b72e3d1b732330d749bc6c72e6648d4581d3",
+      "before_navigation_sha256": "d631d88045f74623d568adfb4783b72e3d1b732330d749bc6c72e6648d4581d3",
+      "after_navigation_sha256": "336cc4fbf19beaada7ccf9986414fa91851a8d7a07dfb3ccbe800a69eed0ab49",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "source_sha256": "e6fc6426ac8115d94d5c055551ebb96a10231357d2e06c7c2cef3d4e6ebcb8fd",
+      "before_navigation_sha256": "9b4fa362e7a5aee9ea426e51fac6cf3892e8e6c2a995db16c31108ccb953ecd3",
+      "after_navigation_sha256": "866ce546f2b2ea423a3ad0c052b9a4586fc762208035182477bdd997ba2cc0f5",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "DIRECTORY.md",
+      "source_sha256": "ff6099b43e661ac78344ed0feaefc8c058aaeb0e22d2f2af9a46cde90717f1ba",
+      "before_navigation_sha256": "56bb0be469eb81a537ad059598526d3506a394ccfa7684b0adda0f84fd827193",
+      "after_navigation_sha256": "157ef4c56f91d57046116601bee590ffc73dbea6797bd70e3a97c0d8692a9613",
+      "changed": true,
+      "aliases_added": 4,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "README.md",
+      "source_sha256": "bcec1515672dd7590a141697123d98e188b69564e155dd91b54cd187a23a5d05",
+      "before_navigation_sha256": "2b541a1db70c58b94c99d70ed9120efe01721c9590d155d71e05ca1f9f8c67fe",
+      "after_navigation_sha256": "dcdf2f4cb0fc5e83f1043c33131db76b1cd23937e7de2a48fe2945d5625458dd",
+      "changed": true,
+      "aliases_added": 1,
+      "destinations_changed": 70,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "data/SCHEMA.md",
+      "source_sha256": "952518599f3f4c648f2b238ebaedcbbbe8b41356e177f2d79dd5f4843cb8d01c",
+      "before_navigation_sha256": "d58549d3486beae4eea4c37e36d88d97e647171a197a8dd0db4dd28ba3ea599b",
+      "after_navigation_sha256": "3ecb2af99c9f040a8ef226ab6f815bf4a5ae9adf910c02be9f59a862813d61f0",
+      "changed": false,
+      "aliases_added": 0,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/a-difficult-game-about-climbing/NOTES.md",
+      "source_sha256": "70ed8cc38ca8b892dc10343509459fe8797f15ff8b322b63b3bc2a61c5c63f59",
+      "before_navigation_sha256": "71a880c12ae7d79693794615e9a79ce24a2e2ed105fb814a9144fb9456468f45",
+      "after_navigation_sha256": "930471d67906324314d3d5c170d4c5e9c85b2fb29abc700f29c1c4b573cfc5a2",
+      "changed": true,
+      "aliases_added": 8,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/a-difficult-game-about-climbing/README.md",
+      "source_sha256": "e8246adefc85a1144c541b0c18661a0e281f5818f68fab1ef1e2fc891ded16ec",
+      "before_navigation_sha256": "09e64463729f4ad2a132c24544cd46103ee18f8e536f597e000681c8dd7b8053",
+      "after_navigation_sha256": "c7d04b6f2f74f63ddc5c35376fe7d0e8d80b36518d9c171daa5f16447fbd5bec",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/autonauts/NOTES.md",
+      "source_sha256": "543ee9d3a7c4376bc04cb658d61de19ac00eb16b53eba9adb203e7c44364fc3f",
+      "before_navigation_sha256": "dafe75708eeeab52f0445fff8112f622e55fd611eba81a39649c06e7c02d3ab5",
+      "after_navigation_sha256": "3bee919868b1f6903add8a41675a312cca19a25f90e8d45b2d62bba8d1434bfe",
+      "changed": true,
+      "aliases_added": 21,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/autonauts/README.md",
+      "source_sha256": "b59c26db423539249e582ff88a8b392e568dc30247afe0aa85161326c7d7f882",
+      "before_navigation_sha256": "3ee37a35116192c91b13d329e2ce67d73cee7310b9b0e019ce6635f0d8aa1bee",
+      "after_navigation_sha256": "76138a12cb30f65a49c82d1a37f8ec8b55777c7c9405176fcb8dbb4ad26d91ef",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/balatro/NOTES.md",
+      "source_sha256": "58ad532f0c3f35a5f5af2d5f6474bd895aba9cf994012f2a95b4607877f9e6c7",
+      "before_navigation_sha256": "873978ee59e3b5aebbb354084d9b3892785ddccc3e25d45d6dcd85dfab38dead",
+      "after_navigation_sha256": "b30ea6e5f8308b7ec13276c17746f1748ce18a5906a0147b98b178d0b6555818",
+      "changed": true,
+      "aliases_added": 11,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/balatro/README.md",
+      "source_sha256": "b3e97ce5bb53551960765209de4f94dee66488269de247189165171a70fb7427",
+      "before_navigation_sha256": "dd38e62648947e8b3ead784cf272b3c056389215b9d6475e9d78cd5e9ba3da7f",
+      "after_navigation_sha256": "86f4e8c66454da92b5c712fd1418b687dbc2d5c2bc0e0d18465b5e122c0df740",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/baldis-basics-plus/README.md",
+      "source_sha256": "d8f87746dec6ca3add35d9d2358849e50172cc859ef7182ec475d24b8d3b9b09",
+      "before_navigation_sha256": "e235917f2a09c8dbd5843bd311de3508847977a928b5e08ed9981cef6db9a5ef",
+      "after_navigation_sha256": "966dc18f4f80dfde548711d8e8e2c068ac945b7841e00b4c0b6cf9de86a05f88",
+      "changed": true,
+      "aliases_added": 15,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/battletech/NOTES.md",
+      "source_sha256": "1708ed06d9f92d5ce262bd6bce54259217b01a854d36b69f712d44b015304c37",
+      "before_navigation_sha256": "88ba139d85f2dfb2fcb6f6e8a79214828eb13074a33bafce377a8f6fc832002e",
+      "after_navigation_sha256": "f0f23abbf949fc6f3787c73c3b2a366bd468463dc23277ecc4199ccda2a442fa",
+      "changed": true,
+      "aliases_added": 11,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/battletech/README.md",
+      "source_sha256": "99069ff430115dd8f1e02cf12ba81878eb2f05aa75068142d5b253a5e2b88e6c",
+      "before_navigation_sha256": "c6c542be5f7f1a6d9c719d9afec1ee6e910215ecc62d056c268647afb7eef54d",
+      "after_navigation_sha256": "4aa9b462587b0172bf9dbd4bbcaf3632b9820e3de9f5d5fdee0f7c92e6cf1943",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/call-of-duty/NOTES.md",
+      "source_sha256": "ef29e66fc7cf71b4beb9199305afc17fef7aa820a396b52ba62d5cbfc7f46675",
+      "before_navigation_sha256": "9aafde9f0e3f07324b3a455d625aa1d0f45d9c86104f343511da4c8c350bb69f",
+      "after_navigation_sha256": "2351137bb2ebacae692db074fc455be34af84877f01c76f08e4c3fed883cca39",
+      "changed": true,
+      "aliases_added": 28,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/call-of-duty/README.md",
+      "source_sha256": "679e389be85f0c023be3aefdfa4d4104c963afbeb7a08e2b545f836253ad11aa",
+      "before_navigation_sha256": "8426d60d9923f099ba1dac60d0a31c2b84fb31d406ac05711ea0cb4b4f0ff5b3",
+      "after_navigation_sha256": "243bc76c85d0db60bf3d00b36f76e1d7231cc495d825b7c0b3086140ee00619b",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/celeste/README.md",
+      "source_sha256": "6c5429deffa0d1c92fa3586e294b8034d67b82fd8e20a74fdf9c17cdbb8d6b53",
+      "before_navigation_sha256": "2cd0b89d58f780d603cd8d666eeaf4020e8c1e276d17d7b122db33113869aa52",
+      "after_navigation_sha256": "b9c94b30e88ba99450ce4e9df24d8be9e4f4fe3f4f4a14c603ae86d29e91de72",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/celeste/SETUP.md",
+      "source_sha256": "2d2a185c39d544b86e5a4ce6197e79731e4bc6321268ef0be1afc8818a63397e",
+      "before_navigation_sha256": "fd6da4eb4f78b670105b904f0297fa6dbd33e20d93c0c2ee4c9c2fdec50a2cc0",
+      "after_navigation_sha256": "4e2c8ffd587068a7a32670bc8963e0a3887dc6dfe5746b27f00332ef97fb186f",
+      "changed": true,
+      "aliases_added": 13,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/clive-barkers-jericho/NOTES.md",
+      "source_sha256": "37925dfb79bb6d4921ce6062c3b5edc91ec84bd1780202c37c88027146081c00",
+      "before_navigation_sha256": "a7f0baca45535f58b1e33d1761ff49d77bdbab6165e9c14c0077c0a51ebf97ef",
+      "after_navigation_sha256": "977d6e75cc2a8bf1627a0537cf2a9132a39f5553357382d60281393b9efdbb89",
+      "changed": true,
+      "aliases_added": 30,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/clive-barkers-jericho/README.md",
+      "source_sha256": "f8a28b2ab63bf554e4c07a17466f7044b48c5bc4bc83909cd7778d0f870826f1",
+      "before_navigation_sha256": "425d2b08ddc5101594cd00ad76bfa985fd42a64943de6e0b963a4e913fa2652c",
+      "after_navigation_sha256": "6da48570da767fd1b402a9b2d402fb81ceff497737795e21ea889f3a8d6a407a",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/code-vein/README.md",
+      "source_sha256": "7e80da0ef751cb3a4bbbce661c3991013afbfa920c4c68b7b38404121bd28357",
+      "before_navigation_sha256": "c4f965611f17f97a8c69873576a47220a8781e0fcd3ab571f697a8ba2498e99c",
+      "after_navigation_sha256": "c5d10a5241babcf059e86b694e642092efef9a4795dbc4f78e90c2e7cfc56b9b",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/command-and-conquer-3/NOTES.md",
+      "source_sha256": "9d17f51b37b0ced5dee583b7c50f23100bdbcbfa695aeae3515c0a03ac8ba515",
+      "before_navigation_sha256": "0e3556a2f1fcba4d7edc304d80aa4380df9b0b4cd208337907bf14e02ae73be5",
+      "after_navigation_sha256": "1a87d223d755a5e33fb8a43a624f40d0cbfafc1714dce69638492041e5ef866d",
+      "changed": true,
+      "aliases_added": 16,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/command-and-conquer-3/README.md",
+      "source_sha256": "761d4193464310c0605b9d3ea1ad10387c1cb3b51eb9bacf718df7f811651e77",
+      "before_navigation_sha256": "c3433e2f36d05daf6ce195becb35c3dd44d73c5c0fb022357a38a14fbaf52fd1",
+      "after_navigation_sha256": "458c3ff8e979441c6f32c661d2ffdaa5464a22726b09c12206aeffdbbf56903c",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/command-and-conquer-3/mission-survey.md",
+      "source_sha256": "7d94cc845ffbf824d532a4304af3478ce53c83fe7edaf7df17f97a9576455320",
+      "before_navigation_sha256": "6d4d8113880ed158a57905cf23314ccbe17c7435b7f356d2681095093b41653d",
+      "after_navigation_sha256": "890622fb78cd1c6353b8f391609b2ca2ce46720179a525d4756d3d8edb0acf20",
+      "changed": true,
+      "aliases_added": 5,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/crime-scene-cleaner/README.md",
+      "source_sha256": "4f0aaaedecf9df4a5241cc2eae474bb0fad51c86f550a34d8d1b53a48ea39309",
+      "before_navigation_sha256": "f4cd5218b6be7151dd580946fed48868253b22842cc23eab88ed942d853d272d",
+      "after_navigation_sha256": "eecbdcaf09e45e9507fc82ad16d2dd3b00b7a5183bb4c484938132e442a5a5e3",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/crimson-desert/NOTES.md",
+      "source_sha256": "66cbb8c4393070cf9468f7703c3a36be7c9f50173aaaf1410442cfb679e8c790",
+      "before_navigation_sha256": "26806d7b988bf6b9e1c8600993172b709b60b160bbe27b94956ac964f7ec8f45",
+      "after_navigation_sha256": "8b1e7a74c98e0bfb91507d454aa8b319d41d07aa778d6ddbca99da94e1ecaf53",
+      "changed": true,
+      "aliases_added": 36,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/crimson-desert/README.md",
+      "source_sha256": "acb4ab7b4285ef1e7c2bf28ea30f8384bf3257da3f627afeb043c73b2188f770",
+      "before_navigation_sha256": "0c34d09f5aa3a7f4156466fb7f907d93c03a181246d89f6334f9d4525eeb7803",
+      "after_navigation_sha256": "70b08c95f5c00ba1a88f6160b99b51c5fafcbefd043bcb31cc047fd02441558b",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/crysis/README.md",
+      "source_sha256": "903dec6aa170a1b985b2c415dc1f864f4f26c7a637d324eaa03ba072f8879bb5",
+      "before_navigation_sha256": "ae4404ef54242f1979566b12d86c1667f274e1ade305f76f4305870a5d4b17d3",
+      "after_navigation_sha256": "1e5454ddef422eaa4366282481bb239e83567d63901c327b21a00b7204ab2a9a",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/cyberpunk-2077/NOTES.md",
+      "source_sha256": "f175e8ccb1adb26bfe4ee77dd4a9d67d02848599e75188bb3d72641248f0deca",
+      "before_navigation_sha256": "c2302e765ce00b403d6b2ea93a000e7b35ee0c658594977271a1e0dd20d3048e",
+      "after_navigation_sha256": "a9db0b4d679cadb858bb01d83a887d2d57b2955d5fd9554bfc8ff75b36f14155",
+      "changed": true,
+      "aliases_added": 6,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/cyberpunk-2077/README.md",
+      "source_sha256": "3e39c00394f0b4a54d22820290ad6463c64fe44a2e0b6443a222bfb773f16692",
+      "before_navigation_sha256": "8ca2babea5bcd5799b68f4b8226b465b0d718744a24a8a5ddcfbbd9fb1d96661",
+      "after_navigation_sha256": "6468150828f0020b0e093d053af96c06407cc5d7576f462233b5e62d53f09ddd",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/dark-messiah-of-might-and-magic/NOTES.md",
+      "source_sha256": "e3b5f77bb2f3f0845a7136679e7871072cea5985d1497e701b9710dff07bfb88",
+      "before_navigation_sha256": "70be16de1ef97f65067dbcdafcd313aefb600cf2274a17a01729ea49138d215c",
+      "after_navigation_sha256": "b4150b23d9bcc7550febf348388738b40ad99cd94556a4738122cc9e55dcd031",
+      "changed": true,
+      "aliases_added": 7,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/dark-messiah-of-might-and-magic/README.md",
+      "source_sha256": "74ca58b5cf4a2dffde1c4487cff584c212d99e509ab8ce21d760903600edc008",
+      "before_navigation_sha256": "82ff4e8b77bde614bf418920b225c3ba7bb4d6a3d7805a2ff5d78956d7757107",
+      "after_navigation_sha256": "db96e1bf0277bc79892af501d4a373a52a5cbb2a46aa403fd9fc43cb54068cf6",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/dave-the-diver/README.md",
+      "source_sha256": "031f0f5db2b28b0ef6d657ae99b7aa6ad1e336f5735a3ecbf12b50cdfbccd389",
+      "before_navigation_sha256": "826c5b5a3a3a21c008da69076acc820b6082d79f221f4590157d3b6345d430ee",
+      "after_navigation_sha256": "a2045c0435d1b05754be7d279a397f6d9347148553bf8354b5808f82c0387505",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/dead-cells/NOTES.md",
+      "source_sha256": "2089577396c2080f0f282a1b34905824f79c672a3ef1eaf5690bfb07bfabc8c3",
+      "before_navigation_sha256": "2b6e6a8ddb1b03610d5850e376fa4009d804d6126a19abbe9b85470656502a99",
+      "after_navigation_sha256": "1248aa121ecf27fc14e1b0d484848298bc57c90a5be41fb5af286d2d19d44623",
+      "changed": true,
+      "aliases_added": 19,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/dead-cells/README.md",
+      "source_sha256": "1f4d2408bf80083d1a0fc99a86e3c3ea301dd9fc6785718b2b5a90a1de2bd69b",
+      "before_navigation_sha256": "13eba24c54754871ec23e1c8c3f2c483d01bc34929267128ad34c383fec8ce4a",
+      "after_navigation_sha256": "14dfee691d739c9a619c88d51419ee7bd6fb32a6c96b2f46c2e4d569c5dd0648",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/deep-rock-galactic-survivor/NOTES.md",
+      "source_sha256": "7e574097b5e8ef7925c9a575eddb7b172581d332b1b1455934851d38e5da75a2",
+      "before_navigation_sha256": "735b239c5979cc706e9bd9a25c470b5dea7aef2bd2de173e155dce4b9596e272",
+      "after_navigation_sha256": "b3d5c2a025113961805780f7174dd08c110d7600f5f8da565db847c039ea0eb9",
+      "changed": true,
+      "aliases_added": 7,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/deep-rock-galactic-survivor/README.md",
+      "source_sha256": "8bd8c46b38dd5ebc151c06287a1791d0af47048d67a0f57060453c7d838819c4",
+      "before_navigation_sha256": "f6abc42e6308876111468c21adeac131c0ef767df9fdf4871cdaa669fe809130",
+      "after_navigation_sha256": "bbcf017de54b416f0e6e84cdea4bd6e1486a4eab61ec639912c4bd30ec9b3917",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 1,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/deep-rock-galactic-survivor/STATUS.md",
+      "source_sha256": "dc55ca3cb0f0236d42fa6b3095175190df8afc441e3dc23cd36ef87436aa97a3",
+      "before_navigation_sha256": "725e7ed47ba68d4cf497ee9d8d4e13e8bd54de8a29ae2cd3774f3160bd4c51b6",
+      "after_navigation_sha256": "2a3f5d169b6d7c809d2ad1120c45de991b055c06325f46465690ec7d490fe557",
+      "changed": true,
+      "aliases_added": 13,
+      "destinations_changed": 1,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/deep-rock-galactic-survivor/notes/01-core.md",
+      "source_sha256": "6dc0ccc2ec162051b49f82bec3e2f0071668a093db44ef61e379f794b2403de6",
+      "before_navigation_sha256": "f9fd52e864f8c28087e2ad591bd83f648814c3bf22ea01020bcbde3e90d81fb2",
+      "after_navigation_sha256": "e3ebbca53f6c45f4709a4d8d2e3204f7bc6085d569f65a8f885e99b78988f9a5",
+      "changed": true,
+      "aliases_added": 16,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/deep-rock-galactic-survivor/notes/02-transport-world.md",
+      "source_sha256": "00e9364913eadcc36f22444dd8ba19503e34f3e2319d4f32042a58e1f5432731",
+      "before_navigation_sha256": "698330ee916102fc35fc0ee5adbc449414be12b9368729011633de0760855322",
+      "after_navigation_sha256": "77d1d71fc504cb9032faf0a2f69d789728491cad1ea7026f456bdc63071a4efa",
+      "changed": true,
+      "aliases_added": 34,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/deep-rock-galactic-survivor/notes/03-combat-progression.md",
+      "source_sha256": "04219495cf6686030b140e1df2394171a84d59b45cf14b6919bc9c0964f56929",
+      "before_navigation_sha256": "81b52dbfd7791031030f9d94d976bf10aaae769ae4080ad72aa800fc9963756f",
+      "after_navigation_sha256": "61c44d73b1b3a7fae4ff9b67fd344558a155d972fad64d40e86d2367361dfea9",
+      "changed": true,
+      "aliases_added": 49,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/deep-rock-galactic-survivor/notes/04-lobby-ui-visuals.md",
+      "source_sha256": "1e8ab75387df1b1268422ead33a61ff9ae0965147819b19be1dd80192817f067",
+      "before_navigation_sha256": "33b1331ffde9383dc6f2b5883d78c3dc4cba47eadc8bd48ef64c0e90f4b91077",
+      "after_navigation_sha256": "ed9874f015febe91c472d6075fafa50844f9be6a35943087322212bde883df0f",
+      "changed": true,
+      "aliases_added": 22,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/deep-rock-galactic-survivor/notes/05-sync-gaps.md",
+      "source_sha256": "7a0dbddeee02807b0ea3a7af5cfaf15309751b5e428458d1e4efeb6aaafda6b0",
+      "before_navigation_sha256": "9649007b90f2068b31480cc26fc128e97aaa3b159ec0d6b0179c50353deb0547",
+      "after_navigation_sha256": "f496100cfe39751a5d23e0c1e77162ebad0430713cf77d3bb0e3cd9b3ea7abb6",
+      "changed": true,
+      "aliases_added": 14,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/deep-rock-galactic-survivor/notes/06-sync-contract.md",
+      "source_sha256": "9a3ea152fe412636f19032a74090c755e47e6297d1512d092ddecc1dc70b21f7",
+      "before_navigation_sha256": "22639ab890f03cf6880b67bcbcbf0bed6b7fc0a559c2a68197a1b7160118915e",
+      "after_navigation_sha256": "0efacd204f8e39e42cd581c02a0fb40c419806d646a757b6bf9d02fa1813a61e",
+      "changed": true,
+      "aliases_added": 8,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/deep-rock-galactic-survivor/notes/07-claim-audit.md",
+      "source_sha256": "ffd966b9ebec246c5903938fe117d88f1b3f562332dcae14cf12a14fddef139c",
+      "before_navigation_sha256": "9aba16c440f426631c2924da6dca178e04de4918052f591d228054a6f31ad0c2",
+      "after_navigation_sha256": "3aa697deb6c37758f59ac3968ef0f54bce2268c4b2a31e6e102720d6e3abd0de",
+      "changed": true,
+      "aliases_added": 6,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/deep-rock-galactic-survivor/notes/08-mission-sync.md",
+      "source_sha256": "d6f3ebd73bd6e4066c8e5ce69d9471c1fce5eabd299bd94b0bfce8569989cb5c",
+      "before_navigation_sha256": "71dd8c839f742c8c5de73b8b385df25ceadc0587a6d622d2e26bed9f26abcd20",
+      "after_navigation_sha256": "63e6a9f5f7fef7e4b6bbc25684ebae80c28ec757f18ea8be54b83bb86f5af44d",
+      "changed": true,
+      "aliases_added": 5,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/deus-ex/README.md",
+      "source_sha256": "cbd5de8c30c86dd9d636e789af16c462e37bff31c7fc591c51064a44c3042b88",
+      "before_navigation_sha256": "b2eecb0e8c80efa1e161877e422c8a13beb0b790ae143b49ef61947faa002a7a",
+      "after_navigation_sha256": "0bbcdcf03a779937c013ace2f23bc7825a7a9b6a62fe6264138fcf352688997f",
+      "changed": true,
+      "aliases_added": 8,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/divinity-2-developers-cut/NOTES.md",
+      "source_sha256": "bd0e5fcaf86d52875948dce2f6cc030d663297af4c5eff8433c0acecdf6407de",
+      "before_navigation_sha256": "1c020456bac336c41be0682d36ffb9e6e05eb0550433e18cf6ec1057196be109",
+      "after_navigation_sha256": "48695f3e14b2323cda0ff2fbdd9acb271c127716394d790db30277100e9268af",
+      "changed": true,
+      "aliases_added": 42,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/divinity-2-developers-cut/README.md",
+      "source_sha256": "8bcab0f618171562d7c5cb03f758c31a9d82b523b9f3e954cdbef5d93ed116e7",
+      "before_navigation_sha256": "7af787c120b1e56189c8ff05e193a79854d7718eb554d547958accf70d9c0c1b",
+      "after_navigation_sha256": "365a46aba779ddd8cc84aa8637760f82ff504f8ad917b64d5807941debf922bc",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/dragon-age-origins/NOTES.md",
+      "source_sha256": "d97f075684758f52150185eba4ee58fd272dbb44533409d8c75c40f01023d834",
+      "before_navigation_sha256": "8c6ebceafcfa23250daf0f19281edcf6cd3475ee1acd2c784134946a102ed1b5",
+      "after_navigation_sha256": "a26e969592763fe970654389ed30b2ae4739473c07f6d7aed145ffbcca829eee",
+      "changed": true,
+      "aliases_added": 8,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/dragon-age-origins/README.md",
+      "source_sha256": "66b34a7a77002f030dcce9b5a3d12cb77f253cfce8c7bf7b5ea836d29996c5ab",
+      "before_navigation_sha256": "067a8e94936a3fa6bed63dff870231673b4227f221248797f55613f560587b3f",
+      "after_navigation_sha256": "a70d67337f4ebe28925cb36e9004517c5f3ca46e8992a80bc72e14399a9c910b",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/dungeon-keeper/README.md",
+      "source_sha256": "1ba4b687aafa506b32d9555b75764d13477348d432851f1bc45765f5221ccc94",
+      "before_navigation_sha256": "dc56db09be6260d5d9f2632b4f4ab10496f23c36ad254e200f26518bfcb0f54b",
+      "after_navigation_sha256": "8e8f57bf798681093d4d64dd260597f213cd3c385ef59cc803bfeee52656b539",
+      "changed": true,
+      "aliases_added": 5,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/enter-the-gungeon/NOTES.md",
+      "source_sha256": "14b79ea2332fb8d533a6b201193b12bf156cd4621fc22c764e97ce956f289019",
+      "before_navigation_sha256": "27ec8d5644422164dd14c662a7cda2d84da6e4c290606dfd3f0ccc26dfcf93ea",
+      "after_navigation_sha256": "6c831e57f657bdb800b510440b4c0be81e3e85dfa633befdc5eea509a9e0ac48",
+      "changed": true,
+      "aliases_added": 24,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/enter-the-gungeon/README.md",
+      "source_sha256": "a77a4ab44450eab85a635ae11d9d3c5166309a46ff3af4f6b1718d311bae7d45",
+      "before_navigation_sha256": "53ff16447a147fa0bdab5d7d5427b34224dff76dbcbac5b0211ec1d4b96667a6",
+      "after_navigation_sha256": "1e28fcead9bb758a1ea6e240f65680b35fe065a6671b7b900b5991794fc4efba",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/fallout-new-vegas/NOTES.md",
+      "source_sha256": "0f45468ecc69e92fccbdb1f53afb72b46efc6d0d4671024496920688be192427",
+      "before_navigation_sha256": "df014b71a73618e19ef246fe42d5c494c01d5da1a55032c70d341c4067aa4491",
+      "after_navigation_sha256": "dd1fed1e0c6e9379544bcf7991e9fce300d935d6462ecbbc947a962abf72ee3e",
+      "changed": true,
+      "aliases_added": 11,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/fallout-new-vegas/README.md",
+      "source_sha256": "b412a81bac40bb4f8ab55401c515e5391d1ec5b3e6d2f07fef936a5997ddec68",
+      "before_navigation_sha256": "19c4832195690856ddba6ca2625faf763597a438d12d515130c65faf1ea41901",
+      "after_navigation_sha256": "9c1318f21f549879026c0ab6d1ba91a1dcebdd358eefb48ff6e1189cb7fcb440",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/fallout-tactics/NOTES.md",
+      "source_sha256": "d9e54e51939a3f03b0ef1764c8e2d53f295679766e73d9bc359fb1dcac7bdf85",
+      "before_navigation_sha256": "0b49ace283ab8d2ca9e18756a5e77482bf261f8a2dee3fda7425ba9ab797f240",
+      "after_navigation_sha256": "c9c202147a4c85cc8b188df28fedf43dd6f0795d0f075f5dcfc3ddbe7c69f308",
+      "changed": true,
+      "aliases_added": 53,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/fallout-tactics/README.md",
+      "source_sha256": "a0b2b23d99c862825ee0fe94be3e091538e0bf70946d96a0e6ada8ebf7cf39ba",
+      "before_navigation_sha256": "22aa86d130cd99bcdd0f32d617b28fc5d15d964ca49a16c8ec0ff6c769fec845",
+      "after_navigation_sha256": "6eb86180cd33276c10038be3179e0ef835829a6a7484e2b06c28a5e5fc19dbdf",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/far-cry-2/NOTES.md",
+      "source_sha256": "20479dbccd9edf1ca48b9d0e86382ecc9b3afc4b837e7e547446607c83d885a5",
+      "before_navigation_sha256": "e23de524bbe6af12ec0db1da61e359c02c7791b3f2b42bc2389cfe62ff020290",
+      "after_navigation_sha256": "4984d6365c27bd84755fadece0e99d3275e89df0819c17203adbcbb023652309",
+      "changed": true,
+      "aliases_added": 48,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/far-cry-2/README.md",
+      "source_sha256": "9edb4082b127675ad4ef57a6f89da2662a36887e15a82f425d2631c6726b21a9",
+      "before_navigation_sha256": "1c0ed3c096770426806d1af14c39bb429ff0ff70fabc2bea24245617418ddb36",
+      "after_navigation_sha256": "ba36bb3985f656fb3253ce943a6fa04786eaeb3e7a340ff5c69a8fb1e4bf95fc",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/far-cry/README.md",
+      "source_sha256": "3f0e9a2a199038390f3f297eaedd11414f5fcb5c2788b0c7fbc3289440a70373",
+      "before_navigation_sha256": "c2dff26e030524bbc284896c1b2b58473b37e399919951eee6dd78a461c17948",
+      "after_navigation_sha256": "bf554b5b6354eded495e3959dc8360200540c44a3ed3f21c980ac284014da4be",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/forager/NOTES.md",
+      "source_sha256": "958b9131c36e5709b704f8b118818013ba1123ab7faeeb2c7923fcf712ca737a",
+      "before_navigation_sha256": "83bdda4603a1dc943dd4d33c670fe0f9f09b6def1c79cc58db065ccf5902d8a3",
+      "after_navigation_sha256": "92dc1cc2cdc5227db98b99b8504f799333a31480d337cef32b00496c7d8a5d9b",
+      "changed": true,
+      "aliases_added": 7,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/forager/README.md",
+      "source_sha256": "e7755de5006572c1db26c0a4c4bee94192c4d6b5c6b22542e27cbe62071a97ad",
+      "before_navigation_sha256": "a8b45f8a985d09dada4095b3606bfb2d8c3171e26d8ce0404fdfe2c4cf96ab76",
+      "after_navigation_sha256": "36b787e166cbb09295a56cd454adb2729aff0cef6c850134c7c6ff5fe76b08ac",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/gedonia/README.md",
+      "source_sha256": "ee9705a77ceda256136d5cfd2cbf89965d1faeb47242b5a49a62fb6b9174cc03",
+      "before_navigation_sha256": "f5ef601b060f0d0dfcaa41b231bf6c49d1e26c741eda36fb119187444b4fdda5",
+      "after_navigation_sha256": "a57aca4e962c9be8c816a55b1694b9887a50e3bd3e79398011ac45a47aeeecf8",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/genesis-alpha-one/NOTES.md",
+      "source_sha256": "f5d837dcddad69aba8ce0c37b468c4dc07176cec5c8fb3110b034aa81a1117d8",
+      "before_navigation_sha256": "a85245cf335d9d59f4ed95a9c617ec856d368901c5aa2daccb88e74b1175174e",
+      "after_navigation_sha256": "17ed422040f45d933338cff37728609cb67c25f1a1555da98ab5eba074e6e727",
+      "changed": true,
+      "aliases_added": 113,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/genesis-alpha-one/README.md",
+      "source_sha256": "7b9a3b904a4cac0608e86b21a44853e1dd4df41d61bb740d6d9d9d66c7b637c3",
+      "before_navigation_sha256": "d0cddd20511944acaa0209c3488b90ffc7f4a37edcdc1ed882bf62dfe04dade6",
+      "after_navigation_sha256": "9fbdc189a70c91ffb5b5337208bcfe9a5f8fa501812910e581f7db08172b7638",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/ghostrunner/NOTES.md",
+      "source_sha256": "203db2b0202ab6913864df5cc148bc99e5a458c31be34accf16134b28d1b5455",
+      "before_navigation_sha256": "194e1132322059e223ceac70642dd60dabdc4b2ffe5c1118593a421b070132fe",
+      "after_navigation_sha256": "13b405bc0c6846735ee7f05016b364aa5696d7f3a0d7479fd6a97905253e0839",
+      "changed": true,
+      "aliases_added": 29,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/ghostrunner/README.md",
+      "source_sha256": "6e2c4514b27c9a893581e24f0159add482302bfcb992a215345f2d3122d54c2b",
+      "before_navigation_sha256": "4e9d9bcf720ff0a1cef0f5e2f5b3a56d1822b93e8caffec6ebe0553ccda0a88a",
+      "after_navigation_sha256": "883f7f9dda85993b9a910b9630936a4c5d6ecb40342ac6027ebf573c2d965bb8",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/god-of-war-2018/NOTES.md",
+      "source_sha256": "6a416914b2db78573f35e0509ca533b89b97d78afe7c4a2bf821d815871023a1",
+      "before_navigation_sha256": "34bb9e1a7b39c80e7a32ce610dae2924d770578577fd00636c6b49c7898efe9c",
+      "after_navigation_sha256": "c22896860fcd1803b9533f03f4aa97f8c7e17e71498069fdbe6c960fe59edda8",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/god-of-war-2018/README.md",
+      "source_sha256": "5e9166b974163616ca31bbd3324e61331d2a9f534e0479298510f9c23c00a490",
+      "before_navigation_sha256": "3aa469af01ae523f299a68a57b3763888babd051ed6003338cfc0b3297873ec8",
+      "after_navigation_sha256": "b4629c5f34c95e8b04c6edac5f9199a6cdd548ee0c44def92d169647e110e808",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/gothic-3/NOTES.md",
+      "source_sha256": "6d8212c9389cbc994660c3e66ef57a2a64dc7fa678b91dd11b19fd0b3de7b302",
+      "before_navigation_sha256": "344ca43d39fe8f3a8b6ebdad25fbdd2c62c58b0a68f79706ac5d224e5a10d266",
+      "after_navigation_sha256": "58845062d77cbe2bf0bffabacb54fd66ecdf35d33c3869b99f5a7dd475321881",
+      "changed": true,
+      "aliases_added": 85,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/gothic-3/OTHER-PROJECTS.md",
+      "source_sha256": "d7c03a094206aca7a4e02713f21dc1bd436136fa9f4bf6407eacc5778f1b70a8",
+      "before_navigation_sha256": "adc2e168d904822c80cc021db3cdb82aa460e0fa5b7abacd2c67b65b1b542819",
+      "after_navigation_sha256": "12065605be52e9660bd159b2a49dd50ca60694d7bc91ce95c0ec1f3deceb9478",
+      "changed": true,
+      "aliases_added": 2,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/gothic-3/README.md",
+      "source_sha256": "c4be3e89252fd3f26f96631a6298a162a6208b09ba73e33dcb431377b1349af3",
+      "before_navigation_sha256": "23f2f9fd42543ae510bfb43b1b6fa393a10d8603f01827e772851f81a6d7b090",
+      "after_navigation_sha256": "e2c36c08ca936d7aeaf8c670c1f1cf7da4413d0a3f05cf046a4738bd23e91c1a",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/gothic-3/RUNTIME-QA-G3TOGETHER.md",
+      "source_sha256": "d2a3c96b9f54eac2158504bc8aee399bc2b51ac03c40342fd0857ca32b48e338",
+      "before_navigation_sha256": "f074cee8fe804a4be32da623a4ec9c0d3ac501a72471371e8f9159473fe64766",
+      "after_navigation_sha256": "c3df68f5a6ec5ae564eccf454363f557648089bd699b722cb760c26c7eca2324",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/graveyard-keeper/README.md",
+      "source_sha256": "fa0952abd3349875e0bf094c5e9c046b0e1d60344d117cc6795beff4393ef61a",
+      "before_navigation_sha256": "c704dcb23363bdcec435cb9c52adc6f229350d39dc054e79ce1631be5b279bb9",
+      "after_navigation_sha256": "49238d09d78366b71c1795eae2686d3db2aa265cc8e79a7027aea621ccd9cba9",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/jedi-outcast/README.md",
+      "source_sha256": "8368e2d0f8ec7ca43dd837243be416e36b62971683a18f204878d689c9c7f09e",
+      "before_navigation_sha256": "b62cff04fbe9c0085e72e04c2bee806bbdf798de908293b4285faec4a9ca8eb9",
+      "after_navigation_sha256": "e4ffbf61a2e58a295c328f9f4a36fd9178c196fbeb320b6992d3640bf47a7aef",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/kotor/NOTES.md",
+      "source_sha256": "c6447681c76a5af9f4c615223d492998fc656a2b72d51b6dc48fc1e5ddf73a54",
+      "before_navigation_sha256": "6430d5a6a91ba82021a48fcdc5ea822a8fa7ea23b4785ed1231ddbd1fd96337a",
+      "after_navigation_sha256": "b14570aac6da0cc9a0c1bd0b1f46d9fe41d9b2d5fc33af5b5b057865e03e6ef1",
+      "changed": true,
+      "aliases_added": 27,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/kotor/README.md",
+      "source_sha256": "5ad22d009af90b7719f3bf4cfe9dee60eaeac6ee47c50b0d5773285577ff8bb4",
+      "before_navigation_sha256": "7523a12f33e21867fa19321fce59c57438cb0f7898286b68a60c2e7e7f5ee995",
+      "after_navigation_sha256": "8eb7b3f039e5c7f60a730a36065059d3f1b66a43b0f25bb0a9073520bd3e09d6",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/little-inferno/NOTES.md",
+      "source_sha256": "53b7dd4ded6de8b978bd54af1b8cec4991561e59c943680737c1cb1be7826a61",
+      "before_navigation_sha256": "9ebb9e31820335e9c69bf236b4232807f5cb784d35c36c9ea76f1e6e454a1b23",
+      "after_navigation_sha256": "c06bb8d3b9cd08ba7d2faf39968abc0fc5ba267bbe4ab9b2328af0c7143d5c34",
+      "changed": true,
+      "aliases_added": 11,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/little-inferno/README.md",
+      "source_sha256": "9510ea81fb21ab10ef8842e001444553825a6826ff41e26dfe21149333778638",
+      "before_navigation_sha256": "f5b6c5be0fdde735281e2feb332d4bf6cb68b9e8bb7085927f193dc586d43149",
+      "after_navigation_sha256": "e6c64a155e7c74893265260d77b2a1ba1cef2a8b8fe5f44b4adfb263c728750a",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/lotr-two-towers/NOTES.md",
+      "source_sha256": "13de867ddec3d06cda87a5e3c910c83350637b94c9330e4df815eafdf67a892c",
+      "before_navigation_sha256": "236bf8fe8933ff1a7d47b13386c9fa61bdebb0351661ae43e238204f507999cc",
+      "after_navigation_sha256": "b2a7bc2069c8085ca4bd34f78a1df2c0062480b042376f91c52095aff4ee5261",
+      "changed": true,
+      "aliases_added": 38,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/lotr-two-towers/README.md",
+      "source_sha256": "ce335cdf27178efa8a982a6baf19deab34451040b53f3ec522974d8293964392",
+      "before_navigation_sha256": "a7a9408291ef89dca37de97747ee4f14c8b2acb699bbc78d788d4f747574d87a",
+      "after_navigation_sha256": "966d7e6bd8de5091ae9e49e303cbb765a16535a42c103926ad4eddec5d232a3e",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/mafia-definitive-edition/NOTES.md",
+      "source_sha256": "008c70c4e5b4d089d6c2219067ecc5d2eb68f52e1acba12b32606bfc5e8e5e10",
+      "before_navigation_sha256": "3347623e581ab35500ddcf554c0053eaac3033ed723193171c70e441d2c5ac78",
+      "after_navigation_sha256": "6dc6b6097320f8c3845104681b0a2bd3c259c95b3edc5132f4d0f2d87b555504",
+      "changed": true,
+      "aliases_added": 12,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/mafia-definitive-edition/README.md",
+      "source_sha256": "fe1d170d519fdcfc5a2f1e45e59e10ed723a299dc203c6871e3c0f6e1382bab4",
+      "before_navigation_sha256": "d480994d48857e3bf51151a09ef272e94f38f6b34cc1ed7017b505540233ea41",
+      "after_navigation_sha256": "78dfb9fabb40b09b51b0312518bab6ba36dfaf56fc37be64c155a53aba72c420",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/marvels-spider-man-remastered/NOTES.md",
+      "source_sha256": "76274c4d30053ea5ff74c03766354b9fe30a350822296dd0525dd85b3de6f0f3",
+      "before_navigation_sha256": "7670123912662e0df132201b0a2b0ac2bfbc8f2c33abe73dab1c2d5e386b27ef",
+      "after_navigation_sha256": "2acc74dd51d59d41ef569230ba33641f466ece68e2fa3470b54523e112e3d707",
+      "changed": true,
+      "aliases_added": 2,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/marvels-spider-man-remastered/README.md",
+      "source_sha256": "d9994f5d881c91ee23eb694df57b7debd6b3366d8524c41dabc7e043fceba764",
+      "before_navigation_sha256": "6779ac8daadae5a2b43ed08ce9528882f69cc7e2b15bd8013d9cf6d280fe523d",
+      "after_navigation_sha256": "1ad174d9a49702aad9de172bf27364e5e03ade5c01e4bf17f14f654234479454",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/mdk2-hd/NOTES.md",
+      "source_sha256": "9aeb83b9c6771e0e06b9ae035fbf3cf9ae04cd297c3fb27448b898dca61e3b23",
+      "before_navigation_sha256": "fb38719801cccec4920d32bf365dd1de80332ddf559694e074c1c5b6aaeb4e24",
+      "after_navigation_sha256": "be69f1e6af951e9eabb104812556d4f9c467318cfe1fe0fadb5933cc26590d56",
+      "changed": true,
+      "aliases_added": 66,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/mdk2-hd/README.md",
+      "source_sha256": "f75c314611c79b200dcd0d9fd1cdcdc03a4c2cbb02739930e76b58020e796b67",
+      "before_navigation_sha256": "486cb783ddf609110266b9bdd5780f8245f2ed8d81d4deb93206352d850513a8",
+      "after_navigation_sha256": "638ab2d513eae41d20f1d465033c2aaf66d519a56059d0cb5598d75ba3314e29",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/metal-gear-solid-v/NOTES.md",
+      "source_sha256": "a6c42d0950351698575f071079909021bca73489303d717c1cea7d3db3644d54",
+      "before_navigation_sha256": "734e9b3921cc49bedfc0a0e5edf91b8bb3b84c2c1da84de00d765dc2ea69ba2a",
+      "after_navigation_sha256": "160f0e64cf041f8572794a04a3574dd7610034dac140a961de5c1658f7517370",
+      "changed": true,
+      "aliases_added": 15,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/metal-gear-solid-v/README.md",
+      "source_sha256": "ecd38380556b54ff27fe8ff364ca9862b242b855d99b8fee350768296a5c3e8c",
+      "before_navigation_sha256": "9d9db91070184d9794dd4f60196438c84ea71ae43069efe705d9d203c766d498",
+      "after_navigation_sha256": "edf4abd21c8f79a6c7a0509e8de500cf9160f1f9200cea0448a72f843d6cc183",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/metroid-prime-2-echoes/NOTES.md",
+      "source_sha256": "b9221d5cc918ad0c80725e3b5a6cf630dcfc107fb0aca15e5793b627491a77fe",
+      "before_navigation_sha256": "e3f27e8504de6add89ac5a0db33036dc85338f137b3b58412ecb2dbc0c1698a6",
+      "after_navigation_sha256": "b5020147f1eb7612b3c5c00b375dc3f5f927d21e0200bbe07337a2719238f949",
+      "changed": true,
+      "aliases_added": 34,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/metroid-prime-2-echoes/README.md",
+      "source_sha256": "d861975769d8e07c8b2f65c79688713eeb35ffe092bf289862580f443356d9b6",
+      "before_navigation_sha256": "73276c05f25dfa3bb7053d7f7dc9af0f5e373d36470c2025f5307df67e4bdc08",
+      "after_navigation_sha256": "f036ec2728f4e9581ed741db773f0bb038371f48251b72b0e66e89b715f304fa",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/miside/README.md",
+      "source_sha256": "8387f887b095db25782f5583af2adac4fe1057bba6a31416abc4752f14309186",
+      "before_navigation_sha256": "1d993a1dac5fbada34909c44c46ef3b16e9c510583638bd8705316331dc6dae4",
+      "after_navigation_sha256": "93914000157de0a366c134ce2f798059f1b43a52dd64b0de39872c7244081593",
+      "changed": true,
+      "aliases_added": 16,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/modern-warfare-2/NOTES.md",
+      "source_sha256": "e136c67abf01cfbb1da46c84aaa484d11f7f9c871e271af1112727f258383c89",
+      "before_navigation_sha256": "95ca649e435afedf00166f68958fac37bae1f0ccceccc5e0ef2b0771d906515a",
+      "after_navigation_sha256": "7280f87622e3165f94c9115f33f0d57aaf4d435e9c23d3e3ef7ebb6b6de4d6a8",
+      "changed": true,
+      "aliases_added": 35,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/modern-warfare-2/README.md",
+      "source_sha256": "5620ee37bf5b73e1c7776905832f12f5829380e75237c790821cbf1a788ed25b",
+      "before_navigation_sha256": "9dff0ee182866600662e3fa584c9facc83a8f26f8fa40fd8869346e5fcd5b2af",
+      "after_navigation_sha256": "fbc5f46a2d56d93c821867bf3a77d126c40f59f2813a7f6d6813d1d84bba34fa",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/modern-warfare-3/NOTES.md",
+      "source_sha256": "14cba28e8f2998eb39c3863e0d9ad1cce5850c9e11cb89d317547751afa79fc8",
+      "before_navigation_sha256": "f58526b80fda070c98beb492d04c419a282ecfa253e00d6a28ce2dd6674c48d3",
+      "after_navigation_sha256": "f2338af8e439bfd0c65fdfbebcc7cc68c84758752b46bfc15952d5aac679c083",
+      "changed": true,
+      "aliases_added": 44,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/modern-warfare-3/README.md",
+      "source_sha256": "9105afd5a68c249f2ce9315bf810d891a78166837fb5656421e6e92a701f6117",
+      "before_navigation_sha256": "de2e15111be054207dea59a4f189bb5755a597205ed2aa78565b96af4b5355db",
+      "after_navigation_sha256": "6d27d62b7d75e624b712a6ce9ece5598e019f705c5a3a7bca73d281eab7c72ba",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/nier-automata/NOTES.md",
+      "source_sha256": "13bb0faee0696a83fe7023bcf65ebb13b5164d0dcd32bf74aa7366df73683bb5",
+      "before_navigation_sha256": "b22b62498e209149d4aab17d29c17281c6af77e967d7c84701ba7b32c1aca410",
+      "after_navigation_sha256": "936d1d1faac8d5d756bdb1e3502e1c6dc59c97d3e0ed80a45f09c36417b1d3e3",
+      "changed": true,
+      "aliases_added": 22,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/night-in-the-woods/NOTES.md",
+      "source_sha256": "4f82987bceb4a77750e6c20752eb580b2c87724d5dfb26a9fe921aff426df56a",
+      "before_navigation_sha256": "86900959d706fe88fcab1e351f861976a50bb8313ad6a8d6873ad11ba1e97ea7",
+      "after_navigation_sha256": "8a803cae34c4d9ab56da46ed44cf8d74e0e41035e6e169f6b5b94c95e3880a11",
+      "changed": true,
+      "aliases_added": 17,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/night-in-the-woods/README.md",
+      "source_sha256": "d9ae47c4fc8b7db4ce606f946aa697ca01e4eb220ab3929ba5112e4d899f60f2",
+      "before_navigation_sha256": "e0a9f4cd9f66e2a43d768c593e35337917aab030a2c0f2704362578cdf5b702d",
+      "after_navigation_sha256": "03836671b548ff43f6bac093238ca61447742aec377901b98bf1e3dc3381a1c6",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/obscure/NOTES.md",
+      "source_sha256": "afa1bc0cfff3af154bbbed90891e8a2673881d1da9f682c77a03263e30b9e95a",
+      "before_navigation_sha256": "2d0232b64fae446e133c98463fcc6da597c1d496c69a733423077ecef6fdeca8",
+      "after_navigation_sha256": "a682dba13f0a3f2dc3769c500cf38efef1ff736b518f0073ab0f606e0788d7d9",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/obscure/README.md",
+      "source_sha256": "6c6f37bc7f023e9a593f511437aaa2ff161b029b26d7b44f90ba309f1b301948",
+      "before_navigation_sha256": "72877b27ac47e93079a4fe0fa50e50bfcbe4cb1c9b249788f9b2ba02a7b179fc",
+      "after_navigation_sha256": "751012f7ed38de73aa1e2c4c6c1de308de6d772d590d1431764b19b4f30ef220",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/ocarina-of-time/README.md",
+      "source_sha256": "f854f6b70a8f59a17a4992fd7c94942330a11582d5f3c11f65e6c18414012fd8",
+      "before_navigation_sha256": "4d1ec74cd87988255819abfa4b71e8cb584ccb1c1cfa03cf80f5cc0eb9bcd8be",
+      "after_navigation_sha256": "bbe216a420297f65962cb0c5aeb4e0c9fd33f34060c7bc8a3139657bb4cc8d49",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/outlast/NOTES.md",
+      "source_sha256": "40e4e592977f36ed7fee4e65f833dd1f38eb75197c5cfde72acdef204b18e567",
+      "before_navigation_sha256": "96bd6c29fc1d191f7d029f19a4ecff4deaffecf8067843538e25fcd558919d60",
+      "after_navigation_sha256": "f0692d3ce62f0be8cec8fdfdce6c7985b8ab9220adad3fd79d10cd28be37addb",
+      "changed": true,
+      "aliases_added": 42,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/outlast/README.md",
+      "source_sha256": "a0f440163094afd3362632f666b8cbdcce9aabd6941f0f8573927dce972c0218",
+      "before_navigation_sha256": "7441dd7d1620d91a375830c51b0776d631ae04fb4688bb1a45c8f979287964cd",
+      "after_navigation_sha256": "bee982abfd40afb6f4b3491bfcedc53df311135f69e6b30fcf3ab82b709b6b7b",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/planetbase/README.md",
+      "source_sha256": "c05a813c72e2a6b8a72d45d03150ab31d80d9ee435aefddee135f251c91b127c",
+      "before_navigation_sha256": "f301960d3a0337ecdbc8240f02fea09909b42afe8fe51b793a70debab691187e",
+      "after_navigation_sha256": "ca77f41c59e2e257fd38e3385eaff528b4229f7b137412bd7115e75da8c068ea",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/poppy-playtime/NOTES.md",
+      "source_sha256": "163716e75d777e6417522cd10b83619884c35d1297cbcd8e12434f7772b6bfe8",
+      "before_navigation_sha256": "db4809963d437d9249891d37d119410c9d0e88ffa82cee790e468eb73a89b870",
+      "after_navigation_sha256": "c3862b07b4d0104ecee1147aad76db3469c399b0bab072fde951572a627b19a8",
+      "changed": true,
+      "aliases_added": 45,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/poppy-playtime/README.md",
+      "source_sha256": "ecbe35be2eb680d5fc48682d26891057f730419cbe50f3480279e943179eda2a",
+      "before_navigation_sha256": "41a97b0d1cd2b98181265f389c20d46ffa04a968b7e1a6742f607d610a5f5cf0",
+      "after_navigation_sha256": "c6ec7d58c86b508b4ddd32def9ccbf90fedf7c09cd60396c7c72dc8d7e7b96c0",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/resident-evil-2-1998/NOTES.md",
+      "source_sha256": "e07a1e583c7468b6eb329f854d06777e49ff12cec7c47f69ec65bc2850dd7ed2",
+      "before_navigation_sha256": "fb997ba295ef63b821a223a9283951d9c7c82d57edaa2cb014a0ab6d1ac6867f",
+      "after_navigation_sha256": "7c34e438a1b89990532331830f710798c80c3a2ff92fb664911f9f6d0b67eeb6",
+      "changed": true,
+      "aliases_added": 17,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/resident-evil-2-1998/README.md",
+      "source_sha256": "8d7f27698690fd4ee659bc0b08d4839298921da6f744e0ac52f5e382ea7450f4",
+      "before_navigation_sha256": "a638dfcb54d9fc5645ae6008c07dcac99c6f7c51e5769285e69dae03c55fb0c2",
+      "after_navigation_sha256": "b9c7d2cd24a821a49fd1c2435f67c8106957964d64cfca1ee8fab65411f3bf8c",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/resident-evil-2-2019-remake/NOTES.md",
+      "source_sha256": "152e4871110007668509397eefd699790bb30de1a43c5643db7c489e7ce25917",
+      "before_navigation_sha256": "a2be4e983e7d9d682adfba5a05b55b7c4a9abb0830dbbeedface50b7d93148b7",
+      "after_navigation_sha256": "21cae67dda7a7aff06af5399e3dc64cc0f66fdcd5465e91f531816d388bca31c",
+      "changed": true,
+      "aliases_added": 5,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/resident-evil-7/README.md",
+      "source_sha256": "5399a19b372eb12d0d1145333aff2fe300cfb5f54749114a50971eaa64158561",
+      "before_navigation_sha256": "807b62a6f3ffc2e1d5108cd181be22c13e29ea80c0a6ed8fe63bdf705df33e31",
+      "after_navigation_sha256": "ee0f41cbd8e7af7b2b5c56b228b64daa19976722c10875e485db7a8cc4266934",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/restory-chill-electronics-repairs/README.md",
+      "source_sha256": "fec635a6cb98a63d7a42c43942fd298923b085f3743290353ec40c6f35f9df8c",
+      "before_navigation_sha256": "28ebb8b2040e92ea49ee3cec8a96a65f1b4a2b7648c16ca2d1d58d21f2fb9a47",
+      "after_navigation_sha256": "bf1c17ac497db00c0df4b0ad0cedcbc8549c1b058858806bd1a85084b95b6e36",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/sekiro/NOTES.md",
+      "source_sha256": "770e3c151c8cd38cc61a3ca36bbce95501100e799dd89cd91a8cbd8a4994a555",
+      "before_navigation_sha256": "1bfade12e8b42d9535cf9f988d5554311af5552de73bf9869b186e1513620818",
+      "after_navigation_sha256": "9d2434fafea3f0944ef24132a58886b367bd759d7764dfd5994c3c7d686d47e4",
+      "changed": true,
+      "aliases_added": 93,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/sekiro/README.md",
+      "source_sha256": "a672e4cd5a3866e389d3b1a265f22389f145b499766663a8d082a56cdda9b3a1",
+      "before_navigation_sha256": "5a5ea322fd8ee95e463bcea07494acc430b3f24e45e07c335862d84a6657d723",
+      "after_navigation_sha256": "6d03e625f8c49e08c4974e8e4ef7749762df622d8aaa4c9d9e7a89f175f22f82",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/shadow-of-war/NOTES.md",
+      "source_sha256": "5927b44ff26f8236c0156895a79139e928a7d96f0690c09e7ff0adc88bba1edd",
+      "before_navigation_sha256": "fa5e73c75d09fa91b6924b8bb84e068d282a6bab12b1ccfb410ae767a585878c",
+      "after_navigation_sha256": "824af04eab79ffd1f5d643aaeafe1a55e4b5ff550c1679fe2efd3a5fdd705d8f",
+      "changed": true,
+      "aliases_added": 140,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/shadow-of-war/README.md",
+      "source_sha256": "450d055c672ed506964d8bf3ab95f8b1073f3505cdcf1e5eb85656d599299875",
+      "before_navigation_sha256": "ab7469795393cc698c4f72e6128397f17e4a9ba9417e75d4087a73c799bc785a",
+      "after_navigation_sha256": "1b98101e18b1c401fd80d2e731a5e464c5c6d7a588363b35065b53eaa95f03e3",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/slime-rancher-2/NOTES.md",
+      "source_sha256": "8f29032bca70b10a5bff316fe49e5b0b8994b568916155b7b6e47f35ead76dc3",
+      "before_navigation_sha256": "751cacc3c45bba34ac4a40bc9be17d7e55143dd28badf41d6532b7579a5b7d16",
+      "after_navigation_sha256": "2deb2e192a58bbc3f43aacce9af40c81787570165ebb25bf2d6d630a00d3bf3b",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/slime-rancher-2/README.md",
+      "source_sha256": "df8615bc02d98a50563c12136a52f8fc60042af7d79fc04ba4f314dc74854561",
+      "before_navigation_sha256": "ee819ab8de1ae6ba8c780124f1a134fe555e22b43d87521a2ea8887dfaf7557c",
+      "after_navigation_sha256": "ddb519dd167b9937645e88a77521109b59d9de0242b1f5e1683c170ca45cb716",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/spider-man-friend-or-foe/NOTES.md",
+      "source_sha256": "3a8179d5124a3c7b49e39bee274d0092ad21292b42a20d782d7785c96f09f59f",
+      "before_navigation_sha256": "cfa09c582b5590bb2bf601cd1f501f6a51adb6ae2476da394a24241cdb144a1c",
+      "after_navigation_sha256": "40aa3b9973d9f8dc7387d174fce51d624284e0d5c47bcd4350a003261881fdfa",
+      "changed": true,
+      "aliases_added": 5,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/spider-man-friend-or-foe/README.md",
+      "source_sha256": "999a0fa61100dd3a6d8a55cb25e0371337d203a4cf8223e915cfafd06563e00c",
+      "before_navigation_sha256": "fb4983e8ac8a8102d4e8fd41c27d62769b3f5119753a05bed3f1e1a8d7774b4e",
+      "after_navigation_sha256": "b15f9fc08fc76cda8a38e3e7312c0c6e5e728d8d3a100152fed2e101f2156165",
+      "changed": true,
+      "aliases_added": 4,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/spooky-jump-scare-mansion/README.md",
+      "source_sha256": "bb6f0b05cd43d34bc5c4bd20b953288ed1d57be50d553ccb037b92916b4eedcf",
+      "before_navigation_sha256": "308de38af66f6020b027fd425239c0d7e828250b0e3fe65e62919889f2e65896",
+      "after_navigation_sha256": "ff4d92635ed29b4afbffe8f71f89aa65240087be5611f151e3e0877d3208d328",
+      "changed": true,
+      "aliases_added": 14,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/stacklands/README.md",
+      "source_sha256": "8fbcc85fdff34c0360c54b49894c2cb96bb85a0008c359f79e1936ae5956cb6f",
+      "before_navigation_sha256": "b2b40f75a8b79476ddc0ed3f95f1c4c45e2f4a848e9e0d1a89af333ce2cef3fc",
+      "after_navigation_sha256": "d51a7482fa45ac2ef1ecaffd2d0553c09744c45b75f525b05fb5664e88cfd22c",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/stalker/README.md",
+      "source_sha256": "b14ac412c6f59321ff620c365daafcafa24f5de9dad8d8116f5b3c9eb34cf8fb",
+      "before_navigation_sha256": "afc01bf7e9107d4f89842424b5e0129168de54feac9f5ea8caa43003a7d36d50",
+      "after_navigation_sha256": "c59c7084fab5d9e9585a1e1a42cc5f1d6b73d06afbfd957c40d1a127550289a3",
+      "changed": true,
+      "aliases_added": 5,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/starcraft-2/NOTES.md",
+      "source_sha256": "22e7d0f9fc9de38ca113a6a9530adfd18effabcd5cb74580af4a0243d836abc6",
+      "before_navigation_sha256": "68376b368a6fb1b4a0aeae958ea5d624e94e44d9c85ac0a40bd6a51d32fa15a7",
+      "after_navigation_sha256": "6c2b5ec1c188bbcfb150e5a51985025b9afab7f5b297641935745ad91c8dab36",
+      "changed": true,
+      "aliases_added": 14,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/starcraft-2/PORTING.md",
+      "source_sha256": "d35c7ac862d89ff2ba2db4d97649cffc033909aa0863832ae7299dbd95f2dcd0",
+      "before_navigation_sha256": "b9e122bbf353a58ebd348c51b207410ac7f8e227edb0b56ebe9e3145fce089d6",
+      "after_navigation_sha256": "e89797445bf6f7cb1691c8a8c740f274c0d9e67ea58862cc53d514893d0dfa9c",
+      "changed": true,
+      "aliases_added": 8,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/starcraft-2/README.md",
+      "source_sha256": "1d7d80780da924aa17bd01beb020cf45792be5b33743a48e67340fccbebcd32f",
+      "before_navigation_sha256": "95c4205f946c92e506364fc75a574fd528f4833d4ad08fb2ce253ca3295abf9d",
+      "after_navigation_sha256": "d335a03820c4f0cb6dfe5aea0508a5d67cfa433567c2374879f452192d1773b6",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/tainted-grail-the-fall-of-avalon/NOTES.md",
+      "source_sha256": "b8035cf1182fbb9702e2a7535ce49ec35bc5c27d868f57e880bb92ebe529dde3",
+      "before_navigation_sha256": "5cb720aabe19de043a4747be009c8ca3cc93217adb3aa44169bb1d21b2708882",
+      "after_navigation_sha256": "f5a70239c9865e32594c0fcd5b58570f0725433b23758eeef6f8608afd51aaae",
+      "changed": true,
+      "aliases_added": 20,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/tainted-grail-the-fall-of-avalon/README.md",
+      "source_sha256": "ed532ccd1d93b080e0f367c43476ebab01cfa189b04992006dfe5a2c542a0e35",
+      "before_navigation_sha256": "982631f52b5a8236aec7da7276047ce853da59c99bdb2209771df82d236e029b",
+      "after_navigation_sha256": "79a00d877287caa5479b0c3b870c1ad074848f4e7f9a0e97965b6b6d66603532",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/the-doors-of-trithius/NOTES.md",
+      "source_sha256": "194bc6d6b424692b5ef7df384b3b5a408fb6ed8777ccf407c17f8bad3e7ee183",
+      "before_navigation_sha256": "5df6b0b414bc4d3732f4eb3fa7e8c8ed4f4ad7352b06e9837ec64a67faaa6407",
+      "after_navigation_sha256": "d7dcdbdfe8fd0544e5b4e5709754ef8a7452023aac4273285d89c663ae69c391",
+      "changed": true,
+      "aliases_added": 7,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/the-doors-of-trithius/README.md",
+      "source_sha256": "aa4a3ffe091172898595ce3539389524723712f64e740bcd3b5d9fc6f2405efa",
+      "before_navigation_sha256": "a131560466196789af15494d6e90c10be284d8af67389b8a5eea4091baff883f",
+      "after_navigation_sha256": "3d2478b407c743aa5ece5bd8519dabb1bd46242aea12a8dc64e8923c89a79bfd",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/the-godfather-ii/NOTES.md",
+      "source_sha256": "20016745afcb7c1d2fbe0fae3f7e93a21dbc6c0729f06ca8a9adf4bf8529f5f1",
+      "before_navigation_sha256": "b54a0c86c8a0e56cbb0cf022888eb52cca2b71038372c5c6cc321edcfaf6fa70",
+      "after_navigation_sha256": "ad4c64dd84c3ff6a8a53361bd3a290834fce218e70f85355f537e90f53283f35",
+      "changed": true,
+      "aliases_added": 27,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/the-godfather-ii/README.md",
+      "source_sha256": "3f93a21c725620dc141706e26675e062b4a853c57f6dd3513e42770f5859fba8",
+      "before_navigation_sha256": "5cf496372a843a439b80391f99e7eaecaf74fea3db43dcc46db2415bec466dab",
+      "after_navigation_sha256": "13bb4b04f43bd5e6f3e110a846df3bffb54d97a304cd769bb592f7da84057e07",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/the-last-of-us-part-2/NOTES.md",
+      "source_sha256": "b2a7f094ed818490204e94e565ec488ed3f54700048575ef88b61b2ee0229057",
+      "before_navigation_sha256": "fe75fd1f524ff12d37d993ccc2a12a695339f477314ceecc627d00615d6f4878",
+      "after_navigation_sha256": "1a1b77dc4cee660857526e0e2bd248dba3b1ec15ff26e6e998f7feaab0506134",
+      "changed": true,
+      "aliases_added": 7,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/the-last-of-us-part-2/README.md",
+      "source_sha256": "f49e2888fee58384972b977ecb801ccaa2f04d61d60d524b0da50b53237fed3c",
+      "before_navigation_sha256": "17dd4fe4176d02c8125a3ed57ce9843c4e3c0e89fca05bad576698660f5b91c8",
+      "after_navigation_sha256": "f38d535e1e69fa477695cf0c98eead5d8486bdcca63b9b160d8fbc86420faebe",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/the-witness/NOTES.md",
+      "source_sha256": "d92ed036f26ad1e0a330df0c309c963e344b829c65373fb44cb7b0d2d7cf6fe1",
+      "before_navigation_sha256": "95e0b74703e2c3c5e5d308c882b640c1f01d0bbd22230a5c6882f4ec85b12b9b",
+      "after_navigation_sha256": "17cd63b5287530fdbbfe33638f31ff59fcf44cc1c9e418ff92fa4feb80e5ac9f",
+      "changed": true,
+      "aliases_added": 56,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/the-witness/README.md",
+      "source_sha256": "333b5adf7f0cf460a12d20c7c8a4b45ff451a1bbdcb543e99cb09bcf6034a87a",
+      "before_navigation_sha256": "1b12e27c3b5be2dbae212295f0fd31071766a1f93f2ec81442328221120db588",
+      "after_navigation_sha256": "c0856d6363bc3ef0fe1a7609f3506ae8407dc780a9acaabdebf8764238c99d2a",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/thief-2/NOTES.md",
+      "source_sha256": "4f9ef65b9146f290b0f839659197119210e5cbbe46496dfe1ee573cfa1d35e9a",
+      "before_navigation_sha256": "9e28872e1c6c8cced9d01e5826d3a99dd6f83242cd838494897698bd7172205d",
+      "after_navigation_sha256": "d7ea658f00afadf5c9f6badd6a12c8bcc178340d1523fd5e0de7f63bee6f45c8",
+      "changed": true,
+      "aliases_added": 14,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/thief-2/README.md",
+      "source_sha256": "6ab2290b2bfd51f5f26cbb4064b4470477edc5a53b46daf807c11fd49a0f790f",
+      "before_navigation_sha256": "53cbe229b54b54495a2e8505acdaed26dd0d2e7ada6b0399bd177245110efe23",
+      "after_navigation_sha256": "af4159045c167511a062237d0c2cc81457a2524b30946aaf76785d37c14d4be3",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/tmnt-2007/NOTES.md",
+      "source_sha256": "b8c98ff1419b8c38f8635270cb190dd021b47c3536505e9da65d4f479d24bf80",
+      "before_navigation_sha256": "f12b163417f2a72f1900e8754bdef5f7c95032634ddf305a20dd61f9feda174f",
+      "after_navigation_sha256": "be90b5cad129e5f98230803c78c1a99099ea83b79a2e93f496c0515539ecbcbd",
+      "changed": true,
+      "aliases_added": 5,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/tmnt-2007/README.md",
+      "source_sha256": "f4d094b2e3c06cb658cc825ed45f210d7f787d92e7cdcaa444812746ab6f9a46",
+      "before_navigation_sha256": "043aee7c6535ddc3e7cd7b63c6275fd99bc5dbbea7aa60590ecd466ea2c62d5c",
+      "after_navigation_sha256": "8f131e65aae5c4f547e9a50e92e4ed637e01cac6d253447732e1c349a400eec8",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/tony-hawks-underground-2/NOTES.md",
+      "source_sha256": "6bb2a007f91fdd9677f7847028fe25890bebd3bc520c4a8bd11d3a354097cae8",
+      "before_navigation_sha256": "b3196948296a166b615d640d6a5be99feadd9653b95fd3f4477d9ea534e50293",
+      "after_navigation_sha256": "1ce2c1ae5a8dacb703942bbe162672f11242bf114d9a0246ae1738d75e185174",
+      "changed": true,
+      "aliases_added": 21,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/tony-hawks-underground-2/README.md",
+      "source_sha256": "62012468803e67c21995ccb60a747a479782c630ac11a2f9ffd95d6885b7e91a",
+      "before_navigation_sha256": "48a106293a4dd05319f184ed7d7c6e2d463725b648e773d3ba9f498df1cb0fdc",
+      "after_navigation_sha256": "474b08e22f197d893711619764498701840ce1decf7b2f98043b2a6b4d0cc862",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/vanquish/NOTES.md",
+      "source_sha256": "56da050aa17c2bc4193fec0ef97e78c6635bbda89c55cf18d77f9be021b098dd",
+      "before_navigation_sha256": "ffff4d2a9ed535fdede2656d4d5716a0fdb1e497d2eb711dd0f413ceb542576a",
+      "after_navigation_sha256": "974f964d8d6c222a93c40b5b26c037dcaa37e5758f2ec8054a918f7b00f9f341",
+      "changed": true,
+      "aliases_added": 6,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/vanquish/README.md",
+      "source_sha256": "c142ad9b9b160605db093805b87a7580b8a120709912859845437229cb1aefaa",
+      "before_navigation_sha256": "e6ffdfb5e99707d4e6adb5174ff9d48cf1aa16926b31653fbe7dc383c1840e78",
+      "after_navigation_sha256": "b3b490b14731b297a8a1df03e4643c78903eee0a888908b0d4d43b61b59b75de",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/witcher-3/NOTES.md",
+      "source_sha256": "db6fdc1d8b5c1dcf8b767886ec9a71c7b6c4035539779ceb7fe0d1374f29a49f",
+      "before_navigation_sha256": "2800a95a17bff200a463b7287ba2342015f52137ac5dc4a92520c26aceda2b7f",
+      "after_navigation_sha256": "dae2c36696207dfd6a6cc7ad08991480c2428518ccdf231d860f4b3ddf64cbbe",
+      "changed": true,
+      "aliases_added": 19,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/witcher-3/README.md",
+      "source_sha256": "2173c12c0326dace379fe4c1650802df41d2b4d6acb6a7c1c78559f57d95e7a7",
+      "before_navigation_sha256": "c65263d73ad2dba074f63a9a3845df9931a11e3de34690ff037b11f609893c81",
+      "after_navigation_sha256": "da692c35f8170f7769c39767831a513aab35a83823bb45251773ecb107648462",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/world-in-conflict/NOTES.md",
+      "source_sha256": "367aef2bac1f4975ca617438fed8c17b10e7b15df108913b5652684fd912a6e6",
+      "before_navigation_sha256": "668b22e1187ac0ad436ad1e519dd359fee0843af040252a1033be1abadaf261d",
+      "after_navigation_sha256": "d0399a3266796b6f4576d124c93473338fe4bc75e7719e26ee3648d431936d6e",
+      "changed": true,
+      "aliases_added": 27,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/world-in-conflict/README.md",
+      "source_sha256": "9faff1780896bdf89b45a170c6042f1c407f46acc2ffc97d83d81a5623db8fe8",
+      "before_navigation_sha256": "3fbcb12219a4d89e586b9816708a866ac88ad3c2aeb3a28ae48ccddfa379c743",
+      "after_navigation_sha256": "dbe0a8803ee9c63ccd116d84be82202c0b954f3adfb77ae4854dee3c737bd2b9",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/world-of-goo/NOTES.md",
+      "source_sha256": "e672400cad014632c08357fab84c4e059e41b3d1dc3fd38dad6372d200600827",
+      "before_navigation_sha256": "2f9f727f8ba4a54202cb77bb4cdcf7a8a755de1aa7779d5b90a9c7b74ad5e535",
+      "after_navigation_sha256": "38f19969c8c03b7bcfaef94e3977195c15a6d2d2fab96a461f6452ac34c8bb08",
+      "changed": true,
+      "aliases_added": 12,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/world-of-goo/README.md",
+      "source_sha256": "3075b4554f7df097a402966d4d46e2a941bb8cafe91d293ab9dc504fef373630",
+      "before_navigation_sha256": "ae80e2c2cb4ad6590566bcb71e6deb87c9e337d9b66f2a111516810517c8937d",
+      "after_navigation_sha256": "56f4c617fc4a73fbb84bc9ff45c0505959b0c309d4aa8855aa71268705e214a5",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/xcom-2/NOTES.md",
+      "source_sha256": "ab1a4f438f8c2996a6e703e623feed06f2361d99a6d858c02d8e34feb26dcef5",
+      "before_navigation_sha256": "4c009e38c4d896dde3e79cfe1ce07814dd490b70d6ab485e4f658c4499d8aa14",
+      "after_navigation_sha256": "130c9fee28877d8a6386bb6781f3e1881f7f3660e95bc7882080c080e9162d6a",
+      "changed": true,
+      "aliases_added": 81,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "games/xcom-2/README.md",
+      "source_sha256": "d952c0c1d1db9af98e7a5ca7f6069cc04a95fef67ca1f30f686ae028d0b41670",
+      "before_navigation_sha256": "5b81b3f4652c92884ccdfb37ebbb9a202a62b365c6fc128ccd519842a06b30f8",
+      "after_navigation_sha256": "83cff241b16da25e7422841d5488b89def8562bdd509a2c85a7529721c4fd75d",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/actor-ownership.md",
+      "source_sha256": "e8e7b95d078921049818007c69eeb8613953ea0c4c522b22ebd750dd7ed5d212",
+      "before_navigation_sha256": "8705cf748a2f54d39af492c040b9fce622660be075fa81e97ee88540ba8459be",
+      "after_navigation_sha256": "cb0b44707ac6b3c4ca90dbd058990ad09379b0ec11312d5404b1eef0a2632cda",
+      "changed": true,
+      "aliases_added": 7,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/animation-sync-checks.md",
+      "source_sha256": "64adc14ee54151406846ff638c6c4a53c94dbea212ed62a6842dcb088a7e5c49",
+      "before_navigation_sha256": "bb4a27fe4761843baed1121e933733d5fa1f5b5caf9e31378334f1e1e46f1260",
+      "after_navigation_sha256": "bcdbd12aeba198777026da91c3e859aa533a9dff4127a6839b0df58b39939bab",
+      "changed": true,
+      "aliases_added": 6,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/automated-qa.md",
+      "source_sha256": "17996df9baac907983e3a6d3a6f3beedd2d1a106518c93a97d81c6671ae4c59d",
+      "before_navigation_sha256": "8af6ffd3d5770528cc2fa462cae3d27490c87a68df8201c92a4b035410cbf2f6",
+      "after_navigation_sha256": "4e68d5199d618a2fc99fb75d60954f46f156d4b45ceba1d21e3eabc3b53d766d",
+      "changed": true,
+      "aliases_added": 7,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/bots-and-playbooks.md",
+      "source_sha256": "74b86f635fd4a3f479f27fed1632e543fda3d92b73a014c76b61d64d460f7c5e",
+      "before_navigation_sha256": "3c13140d79de8036c722cea353a070ec78a54a4e78fdab0bf13db45be401867a",
+      "after_navigation_sha256": "7209ea8965b25bbcb2f65ad529c56bfdf93b86e40d24d37784e8335d09f2a594",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/console-emulators.md",
+      "source_sha256": "c4a2dade4da196c2eab7c125a3a267a321a770fb7c6a7a106526b98cfc2c7e2b",
+      "before_navigation_sha256": "b8eb1186b7abddbbbc9fc54cd03d5b348d386ecaec83aea808e880392611c5d6",
+      "after_navigation_sha256": "d794333ca9bf1cf5fe75dbe090065bd0ea0604b35020f5bec5dec03577c84b19",
+      "changed": true,
+      "aliases_added": 20,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/decomp-and-recomp.md",
+      "source_sha256": "375de762156cb0d9abfafa16f5a349e6b4c1e98e0d86b98e265cf2fdc5916c5d",
+      "before_navigation_sha256": "a7593750a42e8f38f850dd811edbd00f8622cd7297ad1e83bd78ad8d67957b2d",
+      "after_navigation_sha256": "59665fa3996464adbcc8bd78bbec28d7edb9151f2b3b5e000dc12054f24f1f81",
+      "changed": true,
+      "aliases_added": 18,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/desync-hunting.md",
+      "source_sha256": "5a9c13b08640f3b608e872e8dfe1cbc8f5a1ad0b98c7a7600604fbef58185373",
+      "before_navigation_sha256": "083778c80e01d4ea843cabc17018f8813677f4df3fafc240eeb7b4f10e5b56de",
+      "after_navigation_sha256": "c2536911a48274ea5bc5622d1648c44cb823194fa266fa50ae89528e378a3909",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/discord-export.md",
+      "source_sha256": "2ee6df5a82a99c8d8eefd883d57c945240f6adb99502598e04944d6518269000",
+      "before_navigation_sha256": "98b7c59617a834772ecdbabeab7cabcdeea4c3280f11d20e548602ba5f32cd0a",
+      "after_navigation_sha256": "f33b5fc77fa0622c46cf29b32d98adc859b30a88b39027ddcf468111c57a3842",
+      "changed": true,
+      "aliases_added": 5,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/effect-capture-story-sync.md",
+      "source_sha256": "b809ba80ca507dd771b08bfeec2133aee03c08d3654eb4125e18a119572d87bf",
+      "before_navigation_sha256": "6614fd4d145490b943e208458d91ec881ba89a898b3a2d9a39e5cad909e31f70",
+      "after_navigation_sha256": "24905888ed08d38b83f974a67cea3e77efa954b377318a347f49c0094157e0a1",
+      "changed": true,
+      "aliases_added": 18,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/engine-families.md",
+      "source_sha256": "c16860c3845678db9d5192acc48e629a952c02a0b356abb6c71884d9c0f76a72",
+      "before_navigation_sha256": "8b41e31733f9011858ea111f7d223cc47ac11ff0887b9e60eed12928b252462b",
+      "after_navigation_sha256": "f4217362fd1cd041ae5c250e106d97ecf174a7d7825befba4cc582e05f59126f",
+      "changed": true,
+      "aliases_added": 4,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/fake-world-testing.md",
+      "source_sha256": "cb9d1a628ab4a59eabc75a694a019cf087c3ad96e9a183d9dcb0501804e077c2",
+      "before_navigation_sha256": "d891e9c1d55b75f7608e693ccf88c539240258ec0a2cd0d5b2a7556997c84c7c",
+      "after_navigation_sha256": "94f198255e178796446ad6fab6d88279eba8c905e54d7296a756cedb34fdadd6",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/fast-iteration.md",
+      "source_sha256": "90226d83169648e5967ed58442b26f473aec777a452dac124406d46dc999085a",
+      "before_navigation_sha256": "8fd4b45a6abacf95df4faef5ad4b46fb9b40f48251233a7dfe925d6b5fda627b",
+      "after_navigation_sha256": "26a467a0fae500527a292a5c7262292832610f3eaa6a077f8f33213c5730cab4",
+      "changed": true,
+      "aliases_added": 3,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/fuzzing-coop-sync.md",
+      "source_sha256": "78b2ea782fe907047d605f0f0a347282b7ac452c5058a7c6d0af06ace811f374",
+      "before_navigation_sha256": "2c4b45fe7132b8c078aacb4f0c4f0d8477d39c27d81ba7f6c0b29621645dd4af",
+      "after_navigation_sha256": "9f9f5f60f44012ddf46b46fe9f66b20810e7018070332b5cc3c7f892248d0847",
+      "changed": true,
+      "aliases_added": 6,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/hot-reloading-your-mod.md",
+      "source_sha256": "a012fe717ef1f4659609df70c3301202969a4d3faf4a48d56e76f3d63f338639",
+      "before_navigation_sha256": "e323c592a06adfe157b8aab0ad49adf9b20260ad7c5806500385ef46a2e25b8e",
+      "after_navigation_sha256": "8ebdf2d189c1f33b54b3a525f0d31376a2eae2bd482e76895f61cd02e535d289",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/how-coop-mods-work.md",
+      "source_sha256": "920af39d0199b399fb6eb2ac0108a70f0d6c6b12e7ac99286ed1fdb3f72b18c3",
+      "before_navigation_sha256": "bd90765184181fee0171600515d9270adf01640a32db1efe55bbbe82ad3e12a9",
+      "after_navigation_sha256": "d24f432e0a5865d6ddc21ca26cd573d0168fbc1f8d87a1693f9f6afa67b7eae0",
+      "changed": true,
+      "aliases_added": 40,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/in-game-bridge.md",
+      "source_sha256": "19b6cd5d60451c4e148984d2e63aef054615bd91c21ef66f15803d6c994eece7",
+      "before_navigation_sha256": "47b6d0bfbd00cf22d22549cb7afad755bb571156aacc530e66aa75374cf02dd2",
+      "after_navigation_sha256": "965554fb8cf01ca53819ffad28147ee1949f5c526d4dc669471b83c9c350982f",
+      "changed": true,
+      "aliases_added": 8,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/lessons.md",
+      "source_sha256": "bf3411b8c26013a3b5fd9503b1b0048a8bc3bef31adfae15e5dcdccf2ceb644f",
+      "before_navigation_sha256": "06e696d847e4ab65f8446152c986cc9a0db2da3271539bc92580604c50b50dcd",
+      "after_navigation_sha256": "a6f8a8453d540bd1425b9a6958610e9aa0824002d92a2a72da53231d735c92d4",
+      "changed": true,
+      "aliases_added": 1,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/mcp.md",
+      "source_sha256": "9fa6aa771af89b413619d46b8a6d1f721208004fd384efe9a8288f4644d76adb",
+      "before_navigation_sha256": "bdaecba4c139da40d296d71a67ff2f344e9faecb77a60dd1c6c60e1088b1b54f",
+      "after_navigation_sha256": "ba53ca87da4629976aef70fe0d9214c7d1c28cce67fbb9b3e1795da67e7bbf62",
+      "changed": true,
+      "aliases_added": 3,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/methods.md",
+      "source_sha256": "d7ca2d2b66c07221b7b31f3ed5a370a22b0b45c24b534d7184a0c3f288c91ebe",
+      "before_navigation_sha256": "bee494c49b5178d3ed6b53fe48c3717de6aa5996a2db28bb457303a7019f639e",
+      "after_navigation_sha256": "ab1532272138e7574b2d9ff0ae7d1930e8e206b18b3dd8e7ec446ded955aca88",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/multi-agent-workflows.md",
+      "source_sha256": "33d1f8ce8f8c38634230d4c0fc9283efc020b5df2e806b38ab755db48f75b273",
+      "before_navigation_sha256": "fe5a0763c1b570d180fe4f541bc58c13eb6cc1ea9567e34c31db7ba37db5719c",
+      "after_navigation_sha256": "db4a577c69e69cc8da1e3bd365ff60c4de824d43ae2c3e160b51d9cb9d0f9e59",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/multi-instance-testing.md",
+      "source_sha256": "e8f27ba0b793e7db6f657ffaed215c62f988beeac3d5e4edf5d6939c3b5fa3fa",
+      "before_navigation_sha256": "e936dd37dfcfa3ba9d2261266b5fc2b766db4f66a224f7e76819fc64c75cd35f",
+      "after_navigation_sha256": "12f0156d4fd70b5bdfba8525e267653ba446b2946f8ce5e2e19c83b2a0f0de17",
+      "changed": true,
+      "aliases_added": 13,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/network-chaos-testing.md",
+      "source_sha256": "51eeee73056ad53d223a01652f49cc72fd085dcb8986f7d32a33d574185a377a",
+      "before_navigation_sha256": "1e3c7d6a771af40b4b43821f9022381402c4477f3522fc8fd901579f46fd0520",
+      "after_navigation_sha256": "66d77aff051f77ee4a547cfba123ee52ab00044ed633df7d526b8a7c4783aa78",
+      "changed": true,
+      "aliases_added": 12,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/networking-steam-spacewar.md",
+      "source_sha256": "2f36d3dd295d285fa30f677ab7b7cee1a5dc15b120a137fbb473247913987bcd",
+      "before_navigation_sha256": "6559ae5c378c412b01f1c7181973ec812519a22457b0815b52f03e1eb4f9a209",
+      "after_navigation_sha256": "ba674b784c13643d5a5b79f8b8ff7afeafb3a1391d35c6233945a278bbf70cf3",
+      "changed": true,
+      "aliases_added": 18,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/networking.md",
+      "source_sha256": "eac792e2f4220d8fc47faa48284be0b18cabe9bb9ebb56e2c4cff9a1f8dd673b",
+      "before_navigation_sha256": "b145c1656b605c2b9afb8273d1944ff1985f3a3ac1d7e97fe5e10d079d754ec1",
+      "after_navigation_sha256": "015aeb7f63317688871b3c1bfda1e5bb48a1a12b74ec77e5da8cb3546d7bfd96",
+      "changed": true,
+      "aliases_added": 18,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/patching-a-closed-mod-exe.md",
+      "source_sha256": "90a658c677a08c5cbc89a10914eff627d2c0a7dca36ae69919375db65cacfde0",
+      "before_navigation_sha256": "96c692095f841180bcd3b97c8a8b516c035cd086e1a3148833de8c7c79209992",
+      "after_navigation_sha256": "256c23592f38000785c7de17e23fc5edd2bf42a3748ad8036bdbc1889d1ed590",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/research.md",
+      "source_sha256": "ad6b639c417fa921283c7d0d3535116dd8264f3c3161d7c6fa983abfd1a862d7",
+      "before_navigation_sha256": "76d235f7e7a6f2a4397184d404b1f2d0472c37fdfa29bc9bf4ba733911e2c0b8",
+      "after_navigation_sha256": "689458426c8e049efd06160dd24d2cdf583ada080b9fb42133c70cede3c27f1c",
+      "changed": true,
+      "aliases_added": 6,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/reverse-engineering.md",
+      "source_sha256": "dc4a28fc313ab7436c14c4855e9e4039fbeb051c6434e905cefcfbfd7d8270f5",
+      "before_navigation_sha256": "fae8f4af0652cff116d1eece02ff8ce03b4dc79caf562463e45d75ab82f37232",
+      "after_navigation_sha256": "ea71db207f3a8e3b2434c866dfe65d88ad3735ffa080262544b3df293cc39239",
+      "changed": true,
+      "aliases_added": 6,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/reviving-abandoned-mods.md",
+      "source_sha256": "2dcd156a8b216d76b4101613dc898244a4d311f1c8d338cbe059c80480be25d2",
+      "before_navigation_sha256": "b1305bee36364aaedc87af8bf09840593470203c42751f385493384a20c990d2",
+      "after_navigation_sha256": "221886f86c4421adf7246780dbf3c478c62bc2f0aa5783ff77508ca21120cba6",
+      "changed": true,
+      "aliases_added": 8,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/shipping-to-players.md",
+      "source_sha256": "c9d647b4808f43d5975fbf4e3edcbdc53e178a2d64017eca0f1a8209f7bea2ea",
+      "before_navigation_sha256": "03007c42c50592e0705ae130adac6814d9299e1aecf696ebac802bae2e822323",
+      "after_navigation_sha256": "2eaab1e9149514197cfd7698c2a46ebf984b903052028176266db87e516a8857",
+      "changed": true,
+      "aliases_added": 5,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/split-screen.md",
+      "source_sha256": "9f63f1591376466c6606ae9e728f3aecb3b63695c3a9e3147410cb976c194274",
+      "before_navigation_sha256": "8543e86fc11d4d6405c912b668a8f12afa73bb62eae336f47aee2d5c7f817edf",
+      "after_navigation_sha256": "9db8f083d45e87ffc68df90b7ce6014bcd102dc23cc0a8e32635a19385018d45",
+      "changed": true,
+      "aliases_added": 7,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/switch.md",
+      "source_sha256": "56e6cb462b7938ae157754c5fab46ac3f9e5640522e59a2b87f339df8de942fe",
+      "before_navigation_sha256": "12b26e5c438596254190742f957b41abeadabfda51f6b712618df29a98eed7b8",
+      "after_navigation_sha256": "c4186e94fd995cb99f0ab442c84556c0609dd241d7ac01079950861adc4a7920",
+      "changed": true,
+      "aliases_added": 8,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/tools.md",
+      "source_sha256": "38cb6b32e6f3d2dbb6749f205152e0e33d96de2044e9cdce388dec2d30e64e6d",
+      "before_navigation_sha256": "7a37a1bd8688014e881ce10996e51aae8c37dd8b6394d8d29a10ccfac7aa0e89",
+      "after_navigation_sha256": "40aa958a7621b9dd147bf457543b715ce739b6cfbf37c72e295029a5ea4787da",
+      "changed": true,
+      "aliases_added": 17,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "playbook/triage.md",
+      "source_sha256": "5bd8389e7c07a45939eeae93b5349a7967a28fe72b7a1fea8f8a983b6ac9ddae",
+      "before_navigation_sha256": "daf6afac692a9f4d2a7cbdd453ecd99e628e3a54e36679aa8424a795785dbbd7",
+      "after_navigation_sha256": "fb54a4102eeb40ad4a49e2129024017663bf3d3d0bca789b2f34c02b4013e97b",
+      "changed": true,
+      "aliases_added": 2,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "research/reference-repos.md",
+      "source_sha256": "cb73c3e123f8a672ecc5873981506e1d497af6fc5419fc1e74e8d8e5a2425e35",
+      "before_navigation_sha256": "64aea0b974369912a591713e0d3291a30a1059392e7d0bb9bfac611e0e8f5ed2",
+      "after_navigation_sha256": "dc708d72bb3edace16b023ad59948af85a51b369c8e4072f087b0261bfc5469c",
+      "changed": true,
+      "aliases_added": 24,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "templates/game.md",
+      "source_sha256": "7040416bb972fe7792217397f9259d8bb589581ce470e04c633d7e30aa9eff33",
+      "before_navigation_sha256": "c1609c1cb4143bc77522199a696cb3f1945fec269c900e1d34400523e9d916c3",
+      "after_navigation_sha256": "5c48e758bf3703d2d375e5151bdb1d123515f16f88691e00c20cd8ae5bd04520",
+      "changed": true,
+      "aliases_added": 2,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/README.md",
+      "source_sha256": "0fa7998d703978b2f8084c31a0acd4c4ae2a98ec2912168127cfca0ad7664582",
+      "before_navigation_sha256": "e906827452cb22aed60dba693caa204811b30c3bb49fb4b692a00518d368c2b0",
+      "after_navigation_sha256": "468f238f7d6a30c80b9289e258de6dfca966f77ab48ef8ebf9abbc2281a8387d",
+      "changed": true,
+      "aliases_added": 3,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/animcheck/FORMAT.md",
+      "source_sha256": "7a0a55adfac4caa3d77d792db0cafe1e94345deaa0cc2e13abe0266db938bc06",
+      "before_navigation_sha256": "d2f3883e38d2de8166400a12a8f2d39fe2eaaea187ea33f9db8970f4f52199e3",
+      "after_navigation_sha256": "cd034dc7771cb9aa21eba3f7764b7999e6969448d091f376a47cb8e16b59613b",
+      "changed": true,
+      "aliases_added": 11,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/animcheck/README.md",
+      "source_sha256": "fe6b7369c5d15dc85fe47d2f2c22c29b6e9af738658152daefc571131b504c78",
+      "before_navigation_sha256": "09c7994e9d2e77852f3a0c78456d009edd452034a82f39877ee831807e7a905e",
+      "after_navigation_sha256": "ed3e6aeb5caca8040dd3654efd96561f1807c70aaed27eed7451217d310e7fe5",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 1,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/animcheck/examples/fnv/README.md",
+      "source_sha256": "20620d8da52043450532111596cd8bb7bef1abfb23ec9610897a3dfbec67e6d7",
+      "before_navigation_sha256": "c2e3133b4391ed7487082cd83d9b1a60758ac83a43a42272dfc71d334c9bbd04",
+      "after_navigation_sha256": "e65242de04b18a42bd649b7a2011b45f0b51547f2b5304f84bcd808da8a56e03",
+      "changed": true,
+      "aliases_added": 1,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/bots/README.md",
+      "source_sha256": "7cb2781de505ef138c4d8850628048f3da3c51a7fd6066810b6891033218fc97",
+      "before_navigation_sha256": "7566973194f5837262c042c61707cd2b391509af08a1891d7198fb578c135619",
+      "after_navigation_sha256": "68c4c6ef01a17f3717d08fe7ef14d39f4776c2a23927ca5d91912ee8c8146054",
+      "changed": true,
+      "aliases_added": 14,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/bots/adapters/fnv/README.md",
+      "source_sha256": "8177e920e73f1f858bbd85e6fde8690173c98a9e3b43a99d8de653e23f8ee35f",
+      "before_navigation_sha256": "4307f346fb34fde8210a0419f6b1a7745a767de0556b36e4c284dea95ae35d07",
+      "after_navigation_sha256": "6fe674e603633ef8ba07ebd34868fa5a8e553f6cd5d15d34dde345709d8e6967",
+      "changed": true,
+      "aliases_added": 1,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/bridge/PROTOCOL.md",
+      "source_sha256": "35867ad51720b37748900e62ff58bda92a501680f694753910d23c6f01a04811",
+      "before_navigation_sha256": "73a21c4f3bcb24b2e5e44131441cb0106ea004f054f610c14dcb3c2be47a12a7",
+      "after_navigation_sha256": "465ec22fb8a667d7fe2d367b065a44daf8f09ea2e20da5ce909727812b574e41",
+      "changed": true,
+      "aliases_added": 22,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/bridge/README.md",
+      "source_sha256": "ccdc741d5adea701dfbb4d30a17fb9445487c636da185815ee8b6ed5bf600d6a",
+      "before_navigation_sha256": "1c865538ffce661ccc7f9c5e7b3ac6ac8fc5f6f4682b0916acfe69914f2d01e7",
+      "after_navigation_sha256": "03655ad1deb593144e8ab1d077ea1bad9a2c21a54fc23f68410b5fa54384255d",
+      "changed": true,
+      "aliases_added": 7,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/bridge/examples/fnv/README.md",
+      "source_sha256": "3cd46100f9813276b20305cf241d34c9449ff255f30f0fa71b77524825d4a4dc",
+      "before_navigation_sha256": "b28a51661ee0d47ffa55b102123ac933430d8989d417ea3be94b7bfba96628e2",
+      "after_navigation_sha256": "d82ee263418a907cf02d8496a16e5fe1866949866e512a796aefbdaa543afb13",
+      "changed": true,
+      "aliases_added": 5,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/buildlock/README.md",
+      "source_sha256": "b341b6a9264967700b866030412f70e9de2d488132a178298e5d834efd4f716a",
+      "before_navigation_sha256": "d1321398672c3cde8f6a681134b9f90758e61f3d3de2e51f4d53e0feebb077ba",
+      "after_navigation_sha256": "583371c5045a3afbe140aa66baa112a43e15f918df34f9770099fe5bc24e68f7",
+      "changed": true,
+      "aliases_added": 7,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/chaos/README.md",
+      "source_sha256": "fd0f5a2072045b3d4bd6c564a5164e52af2f2480577c1e6bc668d3b017fc5ec5",
+      "before_navigation_sha256": "8f43b135a1434f3f0ca02f1725cc7551377e989450a344c9c4d544473be25e44",
+      "after_navigation_sha256": "ff5ec6468e55bc371797d7236135a550b43684a366957b58e52d1397bded4472",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/chaos/examples/fnv/README.md",
+      "source_sha256": "df66f13ed077d8367cd3e0d32765e61b67c025e49711991f06e23f0870f1e723",
+      "before_navigation_sha256": "2ffa3fdcd4a89be1a4ef76c69ed8a32c3a09950345f2028eba13ac1479aa0337",
+      "after_navigation_sha256": "888271bb669d39ccafd9c0f56dd90e89e296f2d404469993358ad193eab7f99f",
+      "changed": true,
+      "aliases_added": 4,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/fakeworld/README.md",
+      "source_sha256": "1cf60aa5d5b28dbdefdf7842d462a3ca4a3db0ea372663e5b60736bd79a010a3",
+      "before_navigation_sha256": "2e6097baa715b26f028bcc6e4a116022eddd8cb8520f69e8ba990a4d08bd614d",
+      "after_navigation_sha256": "2712e9299198d02743bd518d2bd0b921557b2721549f9a368671fd3421203ae4",
+      "changed": true,
+      "aliases_added": 5,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/flight/FORMAT.md",
+      "source_sha256": "b0981f116b987de01761dd9cfc1c0c44220d3192bfdc1f03a65a6356d5178d33",
+      "before_navigation_sha256": "7d8f118778ed95d53499fd6c674123cc406bff4357bf284e2f2438f093e381d7",
+      "after_navigation_sha256": "d3f730d9b678af743bcf4061637ae6391308a7a87b52ada2050a1bf46516bcc8",
+      "changed": true,
+      "aliases_added": 17,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/flight/README.md",
+      "source_sha256": "bb454c8fb98dbffccffc939fd801f91d21bca73bc34498ebc42d051d253d0a56",
+      "before_navigation_sha256": "43fe9aa0aa668d770151297c96a6c93e28ffdf42efc1cb1408b7dea427b90415",
+      "after_navigation_sha256": "c458528f0e5af0096b4f3113eb035561cff4cb35b7445addf5c1d0bddd4b44d7",
+      "changed": true,
+      "aliases_added": 13,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/fuzz/BUG-CLASSES.md",
+      "source_sha256": "9b7775c37c84cab18eeb97639ff5cebeb4af076e7da32030d9af9ef871341c68",
+      "before_navigation_sha256": "7151783ea1f5b52463216bb7776d1c45e4b9f4f888356199e7fbbcf231a20c1d",
+      "after_navigation_sha256": "921784a1bf289c763c4430f3e53359b60af54d5992e754bba7f3b958d416dc4a",
+      "changed": true,
+      "aliases_added": 16,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/fuzz/GUIDE.md",
+      "source_sha256": "b75530e499ed427c52c84a67ec8445f1c2c48a09faa0d6c413fcd0a623c48781",
+      "before_navigation_sha256": "6b974c892259da2eb88de2228e15d40876f41edbe59f12a806a6fe1685e0c8ff",
+      "after_navigation_sha256": "8266f0078191a87c6c11cd578b4ddbeafae28a92a89779c1ab281f4ac2016c28",
+      "changed": true,
+      "aliases_added": 14,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/fuzz/README.md",
+      "source_sha256": "7bf331c964ce59832be12757a8fd555b33aff6b56d21e9b46b53315d084ea693",
+      "before_navigation_sha256": "9e48f616cda06811516fe2dee447e7004f6df85ae789b8b95c320bacb9b664fb",
+      "after_navigation_sha256": "21c205c8df786fb92da3b793a20818e9517e207d150bcf09e0b7a4ece0a49f5c",
+      "changed": true,
+      "aliases_added": 7,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/gamepool/README.md",
+      "source_sha256": "49c4b704ac29525e4bb29e64199f5cbd8a7d55b5f41dadf7d8c56ce80e0a4d57",
+      "before_navigation_sha256": "20b975378d9946c2579f70b0ac460c28565cf77d5e3edf5eef662116750560df",
+      "after_navigation_sha256": "bb1f20248c748a0f414380964d89bdca224bd9984e78c03d42bbf20ae54baa4c",
+      "changed": true,
+      "aliases_added": 12,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/gameslot/README.md",
+      "source_sha256": "22a698065e9ae9c4b52394d9a3307fa2284ada1952a4b6e73ade29602f6a9193",
+      "before_navigation_sha256": "4dc1a7cc5e8c0eb623785012418dd422b63a80f9847c7134dceaf678eaad99b0",
+      "after_navigation_sha256": "aca83b4ca00e0a4c2dde02661425899c857f97f5474b74769084999a2057c141",
+      "changed": true,
+      "aliases_added": 5,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/hotreload/README.md",
+      "source_sha256": "b7f63e80a13418633d850c2dd4ad8db8e4141f13d43b82c321d1714be1eb47b5",
+      "before_navigation_sha256": "edd4a00d1952f51e246a4be589de65ae7eb37e0fcb2cf0c178863827899b598b",
+      "after_navigation_sha256": "e6c06c79bb27ac44a7692f90b06453564849c93392734736d65cba05ccc14e33",
+      "changed": true,
+      "aliases_added": 16,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/hotreload/examples/fnv/README.md",
+      "source_sha256": "0b86a4fc9802d279c501bf47828cb155aec50a4e06d2c4b0595dfb60a86a834a",
+      "before_navigation_sha256": "d2cef507d1f307e19fa0776d814fe2bbeff26d280dd62f24cb2b23a4de79ba09",
+      "after_navigation_sha256": "fb589b36f3742d8529e4b46cc21499df6b2e50fef53e766b5fea3aa4c4cc3ff5",
+      "changed": true,
+      "aliases_added": 4,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/inspect/README.md",
+      "source_sha256": "95ac67c78d4629e7880cb6960a4debfd3755510c2ab560b8e203b6d5ce312197",
+      "before_navigation_sha256": "f17621c60e531ab9128c3e4c8b848fd25edd2a1e17f3caa43201b015d7eb5c08",
+      "after_navigation_sha256": "3a58f607ef45515339c11e6f3518c9890166c585b5c11ace6695054776967f86",
+      "changed": true,
+      "aliases_added": 8,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/inspect/examples/fnv/README.md",
+      "source_sha256": "2ad2328c2e57cc8b1552420f1765b6d7b7facf9d864e00cbe4561621cbc919e1",
+      "before_navigation_sha256": "ee056a7841d29133e9c2e1942158f0f1de8343f8f783673ae6f663e71cfafb92",
+      "after_navigation_sha256": "2301b82f651f30978e9920f7b348079a82dae04dd688e7b20b472f7f1860a358",
+      "changed": true,
+      "aliases_added": 4,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/mutants/README.md",
+      "source_sha256": "ff4d4ddf3c1c137f77a443785fb3e004b0bd57f00b5ab59134bf9a5899862faf",
+      "before_navigation_sha256": "e1f352ca04b913c988718aa8a145f375156b7c38e1d1e373f5024bc902f62b47",
+      "after_navigation_sha256": "2a05af7156184254ca3267b921b85fc321c98d60b6f1ca004f16724a3224fd17",
+      "changed": true,
+      "aliases_added": 6,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/ownership/DESIGN.md",
+      "source_sha256": "f2a62574656d9f785727a59943ca606e0d5a33962f17dd26af3e46b29d2e5ddd",
+      "before_navigation_sha256": "53832ff904c30aaa060bc2b3b324e433d468731b43b07fa4c6a04b9ec2717ef0",
+      "after_navigation_sha256": "1673a6a56690ba2093e1450ebc76354fe5d687f09d3302baad1e839fcb2e2c1f",
+      "changed": true,
+      "aliases_added": 10,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/ownership/README.md",
+      "source_sha256": "1d154ffe18ec634a2d8f73173533a47aae7bad601da840d8df43e78662b417f1",
+      "before_navigation_sha256": "d1718af5a3cc32ca69f8ae74ded851a35747cbb6aac46f9731a6c4ea15865966",
+      "after_navigation_sha256": "da994c890c1c388cc8e1160b86c8b3637c5455e502231174d71d4fe2a24c7b48",
+      "changed": true,
+      "aliases_added": 5,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/scenarios/README.md",
+      "source_sha256": "15a304446239b4d0780dcf8b323179df2fa4f6692bb6b338962665e2b36f0461",
+      "before_navigation_sha256": "20d022a0432f26e7dfacf6acad8a71678e96930d34a5813a365784c3a6847ffb",
+      "after_navigation_sha256": "b04393cbda5980964415052b6521a09f15ea24c880e3c8d2dbbccedb17fd536c",
+      "changed": true,
+      "aliases_added": 9,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    },
+    {
+      "path": "tools/scenarios/SCHEMA.md",
+      "source_sha256": "563e68bb74dc2529c5e71999570347a40c8e32dca700a9d4db519a5957af35f8",
+      "before_navigation_sha256": "7cdcf0691ca56e22f9fb18da8fb7e1801b916cd21198bc67e96337fb660fdc34",
+      "after_navigation_sha256": "7daea90c7525831af07e7ef41c3d49114ee5f899491fe00f4237f75c05a6e66e",
+      "changed": true,
+      "aliases_added": 8,
+      "destinations_changed": 0,
+      "checks": [
+        "inline-code-identical",
+        "literal-blocks-identical",
+        "image-tokens-identical",
+        "native-heading-slugs-identical"
+      ]
+    }
+  ],
+  "root_readme": {
+    "path": "README.md",
+    "before_sha256": "bcec1515672dd7590a141697123d98e188b69564e155dd91b54cd187a23a5d05",
+    "after_sha256": "01e19786343988ac2ca65600f3826acdc7dea4e69b7ed0d5d48ca2d4c17299fa",
+    "english_path": "README.en.md",
+    "english_sha256": "66d2cf5536935d9734925f04c7fb785145aceb5a66f3d3e8f5085facfe58338f",
+    "english_byte_identical": true,
+    "checks": [
+      "links-rebased-from-pt-BR",
+      "code-images-headings-identical"
+    ],
+    "english_hash_scope": "Exact blob at source commit, including LF line endings"
+  },
+  "publication_line_endings": "LF; protected license, vendor and binary files restored byte-exact from source Git blobs"
+}

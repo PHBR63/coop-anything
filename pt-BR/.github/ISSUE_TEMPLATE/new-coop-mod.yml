@@ -1,0 +1,26 @@
+name: Novo projeto cooperativo encontrado
+description: Informe um mod, fork ou port cooperativo que esteja faltando no diretório
+labels: [directory]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🙌 **Entre no nosso [Discord](https://discord.gg/EXGB49R82t)!** Converse com outros criadores de mods cooperativos, acompanhe projetos e obtenha seu próprio cargo Dev e tópico para seu mod.
+  - type: input
+    id: game
+    attributes: { label: Jogo, placeholder: "Deus Ex (2000)" }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: Link do projeto, placeholder: "https://..." }
+    validations: { required: true }
+  - type: textarea
+    id: scope
+    attributes:
+      label: O que é realmente compartilhado?
+      description: História e missões, inimigos, estado do mundo e itens. Informe o que observou, não o que a página promete.
+  - type: dropdown
+    id: qa
+    attributes:
+      label: Você já jogou em modo cooperativo?
+      options: ["Não", "Sim, um pouco", "Sim, uma campanha inteira", "Executei testes automatizados"]

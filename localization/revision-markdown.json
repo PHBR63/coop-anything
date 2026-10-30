@@ -1,0 +1,124 @@
+{
+  "status": "independent-sampling-audit-complete",
+  "scope": "Somente leitura dos Markdown e criação de relatórios externos. Não foram alterados documentos, âncoras, links nem arquivos de agentes ativos.",
+  "method": {
+    "coverage": "Varredura sintática e heurística de todos os 245 Markdown traduzidos disponíveis dentre 246 Markdown do inventário. Não é uma alegação de leitura humana integral dos aproximadamente 4 MB.",
+    "parser": "markdown-it-py CommonMark com tabelas; código cercado e inline excluídos da busca por prosa inglesa.",
+    "manual_review": [
+      "AGENTS.md: leitura integral e comparação com o original",
+      "CONTRIBUTING.md e templates/game.md: leitura integral das traduções",
+      ".agents/skills/coop-research/SKILL.md, coop-networking/SKILL.md e coop-qa/SKILL.md: leitura integral das traduções; coop-qa também comparado ao original",
+      "README.md: primeiras 100 linhas, prompt inicial, comandos, badges e links",
+      "games/nier-automata/NOTES.md: primeiras 105 linhas traduzidas contra as primeiras 130 do original, mais amostras e comparações dirigidas de trechos posteriores",
+      "17 pares de parágrafos distribuídos entre NieR, Shadow of War, Outlast, Deep Rock Galactic: Survivor, Modern Warfare 2, automated-qa e research",
+      "Comparação dos títulos H1 dos README de jogos para detectar alteração indevida de nomes próprios",
+      "Inspeção dos 9 candidatos a inglês residual e das únicas 2 diferenças em blocos cercados"
+    ],
+    "line_numbers": "Linhas observadas durante a auditoria; podem mudar com a normalização de âncoras. Os trechos literais identificam as ocorrências."
+  },
+  "automated_results": {
+    "markdown_available": 245,
+    "markdown_expected": 246,
+    "missing_at_snapshot": [
+      "games/mdk2-hd/NOTES.md"
+    ],
+    "missing_is_known_active_work": true,
+    "inline_code_multiset_differences": 0,
+    "heading_count_differences": 0,
+    "external_http_https_link_or_image_target_differences": 0,
+    "fenced_block_count_differences": 0,
+    "fenced_block_content_differences": [
+      {
+        "path": "README.md",
+        "assessment": "Esperado: prompt humano traduzido, preservando URL, AGENTS.md e <game>; comando MCP permanece intacto."
+      },
+      {
+        "path": "data/SCHEMA.md",
+        "assessment": "Esperado: comentários e campo humano notes traduzidos; chaves, enums, nomes próprios, URLs e números preservados."
+      }
+    ],
+    "english_candidates": 9,
+    "english_candidates_confirmed_untranslated_editorial_paragraphs": 0,
+    "english_candidate_explanations": {
+      "proper_game_titles": [
+        "DIRECTORY.md: The Lord of the Rings: The Two Towers",
+        "games/lotr-two-towers/README.md: título do jogo"
+      ],
+      "urls_preserved": [
+        "games/metal-gear-solid-v/NOTES.md",
+        "games/the-last-of-us-part-2/README.md (2 URLs)",
+        "games/world-in-conflict/NOTES.md"
+      ],
+      "literal_game_source_or_log_quotations": [
+        "games/little-inferno/NOTES.md: aviso literal do jogo",
+        "games/shadow-of-war/NOTES.md: descrição literal de comando",
+        "games/shadow-of-war/NOTES.md: trechos de logs"
+      ]
+    },
+    "game_readme_title_check": "As únicas diferenças nos H1 são conectivos e rótulos humanos (and/e, in/em, campaign co-op/campanha cooperativa, Early Access/Acesso Antecipado). Nenhuma tradução indevida de título de jogo confirmada."
+  },
+  "findings": [
+    {
+      "id": "MD-001",
+      "severity": "medium",
+      "kind": "semantic-mistranslation",
+      "path": "pt-BR/games/modern-warfare-2/README.md",
+      "translation_line_observed": 62,
+      "source_line_observed": 218,
+      "source_excerpt": "No Russian: straying and grenades count for either player; a blown cover kills both.",
+      "translation_excerpt": "No Russian: afastamento e granadas contam para qualquer jogador; cobertura descoberta mata ambos.",
+      "problem": "'Cover' neste contexto é o disfarce/identidade encoberta dos jogadores, não cobertura física. 'Cobertura descoberta' muda a explicação da condição de falha da missão.",
+      "necessary_correction": "Substituir o final por 'se o disfarce for descoberto, ambos morrem'. Preservar o nome próprio da missão No Russian."
+    },
+    {
+      "id": "MD-002",
+      "severity": "low",
+      "kind": "omitted-qualifier",
+      "path": "pt-BR/games/nier-automata/NOTES.md",
+      "translation_line_observed": 45,
+      "source_line_observed": 57,
+      "source_excerpt": "Meaning of the int32 before the name. Which of the four copies the game treats as the source.",
+      "translation_excerpt": "Significado do int32 anterior; qual cópia é a fonte.",
+      "problem": "A tradução contrai a frase e perde a referência explícita às quatro cópias globais e à decisão do próprio jogo.",
+      "necessary_correction": "Usar 'Significado do int32 antes do nome. Qual das quatro cópias o jogo trata como fonte.'"
+    },
+    {
+      "id": "MD-003",
+      "severity": "low",
+      "kind": "omitted-test-context",
+      "path": "pt-BR/games/nier-automata/NOTES.md",
+      "translation_line_observed": 155,
+      "source_line_observed": 243,
+      "source_excerpt": "The exe is encrypted on disk (Steam DRM); code was read from the memory of a running test copy.",
+      "translation_excerpt": "Executável criptografado no disco (Steam DRM); código lido da memória da cópia ativa.",
+      "problem": "Foi omitido que a cópia em execução era de teste. Esse qualificador é útil num relato sobre isolamento da instalação real.",
+      "necessary_correction": "Usar 'Executável criptografado no disco (Steam DRM); o código foi lido da memória de uma cópia de teste em execução.'"
+    }
+  ],
+  "prepublication_followups": [
+    {
+      "path": "pt-BR/README.md",
+      "item": "O aviso inicial ainda diz 'Tradução em andamento'. Atualizar somente após consolidar MDK2 e o inventário final; não contar como erro no checkpoint atual."
+    },
+    {
+      "item": "A validação final de destinos relativos e âncoras pertence ao normalizador já em andamento. Esta auditoria não reescreveu nem certificou os links relativos finais."
+    },
+    {
+      "item": "NieR e alguns outros relatos usam redação bastante condensada. Os contadores sintáticos iguais não provam ausência de omissões semânticas; revisar qualificadores nas revisões futuras. Os dois casos concretos acima estão confirmados, sem generalizar para omissões não demonstradas."
+    }
+  ],
+  "limitations": [
+    "Sem execução do código do projeto, jogos, testes ou downloads.",
+    "Não houve revisão humana integral de todos os Markdown.",
+    "A busca de inglês é uma heurística e pode não detectar frases curtas, idiomas diferentes ou erros semânticos em português fluente.",
+    "Arquivos estavam sendo concluídos/normalizados em paralelo; hashes do snapshot estão em revision_markdown_candidates.json.",
+    "Termos técnicos como host, hook, handler, framework e nomes de interfaces não foram automaticamente considerados falta de tradução."
+  ],
+  "supporting_files": [
+    "localization-work/revision_markdown_candidates.json",
+    "localization-work/revision_markdown_urls.json",
+    "localization-work/revision_markdown_fences.json",
+    "localization-work/audit_markdown_review.py"
+  ],
+  "project_files_edited": false
+}

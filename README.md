@@ -1,214 +1,168 @@
-<h1 align="center">Co-op Anything</h1>
+> **Português (Brasil)** · [English](README.en.md) · [Relatório da tradução](LOCALIZATION_STATUS.pt-BR.md)
 
-<p align="center"><b>Any single-player game. Your friends. Your agent does the work.</b></p>
+<h1 align="center"><a id="co-op-anything"></a>Co-op Anything</h1>
+
+<p align="center"><b>Qualquer jogo para um jogador. Seus amigos. Seu agente faz o trabalho.</b></p>
 
 <p align="center">
-<a href="https://ko-fi.com/cranebeaker"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support me on Ko-fi"></a>
-<a href="https://discord.gg/EXGB49R82t"><img src="https://img.shields.io/badge/Discord-Join%20the%20server-5865F2?logo=discord&logoColor=white&style=for-the-badge" alt="Join the Discord" height="36"></a>
-<a href="https://coopanything.app"><img src="https://img.shields.io/badge/CoOp%3AAnything-Browse%20every%20co--op%20mod-1abc9c?style=for-the-badge" alt="Browse every co-op mod on CoOp:Anything" height="36"></a>
+<a href="https://ko-fi.com/cranebeaker"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Apoie-me no Ko-fi"></a>
+<a href="https://discord.gg/EXGB49R82t"><img src="https://img.shields.io/badge/Discord-Join%20the%20server-5865F2?logo=discord&logoColor=white&style=for-the-badge" alt="Entre no Discord" height="36"></a>
+<a href="https://coopanything.app"><img src="https://img.shields.io/badge/CoOp%3AAnything-Browse%20every%20co--op%20mod-1abc9c?style=for-the-badge" alt="Explore todos os mods cooperativos no CoOp:Anything" height="36"></a>
 </p>
 
 <p align="center">
-<a href="#quick-start">Quick start</a> ·
-<a href="#how-it-works">How it works</a> ·
-<a href="#what-you-can-co-op">What you can co-op</a> ·
-<a href="#games-so-far">Games so far</a> ·
-<a href="#everyone-is-a-contributor">Contribute</a> ·
-<a href="#faq">FAQ</a> ·
-<a href="#documentation">Docs</a>
+<a href="#quick-start">Primeiros passos</a> ·
+<a href="#how-it-works">Como funciona</a> ·
+<a href="#what-you-can-co-op">O que você pode jogar em modo cooperativo</a> ·
+<a href="#games-so-far">Jogos até agora</a> ·
+<a href="#everyone-is-a-contributor">Contribua</a> ·
+<a href="#faq">Perguntas frequentes</a> ·
+<a href="#documentation">Documentação</a>
 </p>
 
-Want to play a single-player game with your friends? Point your AI coding agent at this
-repo. It researches what exists, reverse engineers the game and its engine if it has to,
-builds or fixes the co-op, **tests it with bots inside the game**, and packages it so your
-friends install it in one click and join over Steam without port forwarding.
+Quer jogar um jogo para um jogador com seus amigos? Direcione seu agente de programação com IA para este repositório. Ele pesquisa o que já existe, faz engenharia reversa do jogo e de seu motor quando necessário, cria ou corrige o modo cooperativo, **testa com bots dentro do jogo** e prepara um pacote para seus amigos instalarem com um clique e se conectarem pelo Steam sem redirecionar portas.
 
-The sky is the limit. Every game that runs on your PC is a candidate.
+O céu é o limite. Todo jogo que roda no seu PC é um candidato.
 
-**Playing on one PC?** [Couchlink](https://github.com/cranebeaker/couchlink) runs a copy of the game for each player,
-each with their own part of the screen, their own controller or keyboard and mouse, and their own Steam account if
-they want one. It works with co-op mods and with games that only play online. Mods made here can plug into it: see the
-`couchlink` skill.
+**Vão jogar em um único PC?** O [Couchlink](https://github.com/cranebeaker/couchlink) executa uma cópia do jogo para cada jogador, cada um com sua própria parte da tela, seu controle ou teclado e mouse e, se quiser, sua própria conta Steam. Funciona com mods cooperativos e jogos que só oferecem partidas on-line. Os mods feitos aqui podem se integrar a ele: consulte a skill `couchlink`.
 
-Games being made co-op right now: **[Deus Ex](https://github.com/cranebeaker/deus-ex-coop)** (released) ·
-**[Fallout: New Vegas](https://github.com/cranebeaker/fnv-coop)** · **[Zelda: Ocarina of Time](https://github.com/cranebeaker/ocarina-coop)** (fully synced) ·
-**[Dungeon Keeper](https://github.com/cranebeaker/dungeon-keeper-coop)** · **[S.T.A.L.K.E.R. Shadow of Chernobyl](https://github.com/cranebeaker/stalker-soc-coop-fixes)**
+Jogos que estão ganhando modo cooperativo agora: **[Deus Ex](https://github.com/cranebeaker/deus-ex-coop)** (lançado) · **[Fallout: New Vegas](https://github.com/cranebeaker/fnv-coop)** · **[Zelda: Ocarina of Time](https://github.com/cranebeaker/ocarina-coop)** (totalmente sincronizado) · **[Dungeon Keeper](https://github.com/cranebeaker/dungeon-keeper-coop)** · **[S.T.A.L.K.E.R. Shadow of Chernobyl](https://github.com/cranebeaker/stalker-soc-coop-fixes)**
 
-From the community: **[Mega Man X](https://github.com/mstan/MegaManXSNESRecomp)** and
-**[Mega Man X4](https://github.com/mstan/MegaManX4Recomp)** (native PC with co-op netplay) ·
-**[Pilotwings 64](https://github.com/NoahVl/Birdman64)** (split-screen) ·
-**[Crab Champions](https://github.com/Dudiebug/CrabMods/blob/main/crabsync/README.md)** · **[Stacklands](https://github.com/Dudiebug/stacklands-coop)** ·
-**[Half Sword](https://github.com/Dudiebug/halfsword-multiplayer-mod)** · **[Enter the Gungeon](https://thunderstore.io/c/enter-the-gungeon/p/GoTeamAlex/Gungeon_Online/)** ·
-**[Clive Barker's Jericho](https://github.com/dolbaras/jericho-coop)** · **[Poppy Playtime](https://github.com/romannazarov057-spec/PoppyCoop)** ·
-**[Divinity II](games/divinity-2-developers-cut)** (split-screen) · **[Command & Conquer 3](games/command-and-conquer-3)** (campaign co-op) ·
-**[Far Cry 2](https://github.com/MortyRei/fc2-coop-probe)** · **[Gothic 3](https://github.com/GGM1k3y23/g3-together)** · **[Fear & Hunger](https://github.com/glynn568-glitch/fear-and-hunger-together)** ·
-**[Modern Warfare 2](https://github.com/stxlvn/mw2_coop)** (campaign co-op) · **[Little Nightmares](https://discord.com/channels/1561411702082510879/1562210529504927836)** (on our Discord) · yours next?
+Da comunidade: **[Mega Man X](https://github.com/mstan/MegaManXSNESRecomp)** e **[Mega Man X4](https://github.com/mstan/MegaManX4Recomp)** (versões nativas para PC com jogo cooperativo em rede) · **[Pilotwings 64](https://github.com/NoahVl/Birdman64)** (tela dividida) · **[Crab Champions](https://github.com/Dudiebug/CrabMods/blob/main/crabsync/README.md)** · **[Stacklands](https://github.com/Dudiebug/stacklands-coop)** · **[Half Sword](https://github.com/Dudiebug/halfsword-multiplayer-mod)** · **[Enter the Gungeon](https://thunderstore.io/c/enter-the-gungeon/p/GoTeamAlex/Gungeon_Online/)** · **[Clive Barker's Jericho](https://github.com/dolbaras/jericho-coop)** · **[Poppy Playtime](https://github.com/romannazarov057-spec/PoppyCoop)** · **[Divinity II](pt-BR/games/divinity-2-developers-cut)** (tela dividida) · **[Command & Conquer 3](pt-BR/games/command-and-conquer-3)** (campanha cooperativa) · **[Far Cry 2](https://github.com/MortyRei/fc2-coop-probe)** · **[Gothic 3](https://github.com/GGM1k3y23/g3-together)** · **[Fear & Hunger](https://github.com/glynn568-glitch/fear-and-hunger-together)** · **[Modern Warfare 2](https://github.com/stxlvn/mw2_coop)** (campanha cooperativa) · **[Little Nightmares](https://discord.com/channels/1561411702082510879/1562210529504927836)** (no nosso Discord) · o seu será o próximo?
 
-## Quick start
+<a id="quick-start"></a>
+## Primeiros passos
 
-Tell your agent (Claude Code, Codex, Gemini CLI, Cursor, OpenCode, ...):
+Diga ao seu agente (Claude Code, Codex, Gemini CLI, Cursor, OpenCode, ...):
 
 ```
-Read https://github.com/cranebeaker/coop-anything and follow AGENTS.md.
-I want to play <game> in co-op with my friends.
+Leia https://github.com/cranebeaker/coop-anything e siga AGENTS.md.
+Quero jogar <game> em modo cooperativo com meus amigos.
 ```
 
-The agent follows [AGENTS.md](AGENTS.md) and the skills in [`.agents/skills`](.agents/skills)
-(also in `.claude/skills` for Claude Code).
+O agente segue [AGENTS.md](pt-BR/AGENTS.md) e as skills em [`.agents/skills`](pt-BR/.agents/skills) (também disponíveis em `.claude/skills` para Claude Code).
 
-### Add the MCP server
+<a id="add-the-mcp-server"></a>
+### Adicione o servidor MCP
 
-The **Co-op Anything MCP** lets any agent search the co-op directory, detect a game's engine
-from its install folder, read the playbook and skills, and validate contributions.
-Claude Code picks it up from this repo's `.mcp.json`; for other agents:
+O **Co-op Anything MCP** permite que qualquer agente pesquise o diretório de projetos cooperativos, identifique o motor de um jogo pela pasta de instalação, leia os guias e as skills e valide contribuições. O Claude Code o reconhece pelo arquivo `.mcp.json` deste repositório; para outros agentes:
 
 ```
 claude mcp add coop-anything -- python <clone>/tools/mcp/coop_mcp.py
 ```
 
-Codex, Gemini CLI and Cursor setup: [playbook/mcp.md](playbook/mcp.md). For the binary work,
-pair it with a reverse-engineering MCP such as [REA](https://github.com/morluto/rea)
-(`npx rea-agents setup`): Co-op Anything knows what to do, REA looks inside the game.
+Configuração para Codex, Gemini CLI e Cursor: [playbook/mcp.md](pt-BR/playbook/mcp.md). Para trabalhar com binários, combine-o com um MCP de engenharia reversa, como o [REA](https://github.com/morluto/rea) (`npx rea-agents setup`): o Co-op Anything sabe o que fazer; o REA examina o interior do jogo.
 
-## How it works
+<a id="how-it-works"></a>
+## Como funciona
 
-Your agent takes one of two paths.
+Seu agente segue um de dois caminhos.
 
-| | Path 1: finish what exists | Path 2: build it from zero |
+| | Caminho 1: concluir o que já existe | Caminho 2: criar do zero |
 |---|---|---|
-| When | A co-op mod exists but is buggy, stalled or abandoned. Most loved games are here. | Nothing usable exists. |
-| How | Find the last build, mine its bug reports (issues, forums, Discord), audit the code, fix it as a separate package, test, ship. | Reverse engineer the game and engine, hook in, show the second player, sync enemies, world and story, handle level changes and saves, test, ship. |
+| Quando | Já existe um mod cooperativo, mas ele tem bugs, parou de evoluir ou foi abandonado. É o caso da maioria dos jogos mais queridos. | Não existe nada utilizável. |
+| Como | Encontrar a última versão compilada, reunir relatos de bugs (issues, fóruns, Discord), auditar o código, corrigir em um pacote separado, testar e distribuir. | Fazer engenharia reversa do jogo e do motor, inserir hooks, exibir o segundo jogador, sincronizar inimigos, mundo e história, lidar com mudanças de fase e salvamentos, testar e distribuir. |
 | Skills | `coop-research`, `coop-revive`, `coop-qa`, `couchlink` | `coop-reverse-engineer`, `coop-build-from-zero`, `coop-networking`, `coop-sync-testing`, `coop-qa`, `couchlink` |
-| Guide | [Reviving abandoned mods](playbook/reviving-abandoned-mods.md) | [How co-op mods work](playbook/how-coop-mods-work.md) |
+| Guia | [Retomando mods abandonados](pt-BR/playbook/reviving-abandoned-mods.md) | [Como funcionam os mods cooperativos](pt-BR/playbook/how-coop-mods-work.md) |
 
-Both paths end the same way: automated tests with real game clients
-([QA](playbook/automated-qa.md)), easy install, Steam relay networking
-([networking](playbook/networking.md)), and a pull request back here.
+Os dois caminhos terminam da mesma forma: testes automatizados com clientes reais do jogo ([QA](pt-BR/playbook/automated-qa.md)), instalação fácil, comunicação por retransmissão do Steam ([rede](pt-BR/playbook/networking.md)) e uma pull request de volta para este repositório.
 
-### Sync test tools
+<a id="sync-test-tools"></a>
+### Ferramentas de teste de sincronização
 
-Ready-made, game-agnostic tools for building and testing co-op sync, in [`tools/`](tools/README.md).
-Each has tests, mutation twins and one command that prints `ALL OK`
-(`python -I tools/test_all.py` runs them all).
+Ferramentas prontas, independentes de jogo, para criar e testar a sincronização cooperativa em [`tools/`](pt-BR/tools/README.md). Cada uma tem testes, variantes de mutação e um comando que exibe `ALL OK` (`python -I tools/test_all.py` executa todos).
 
-| Tool | What it does |
+| Ferramenta | O que faz |
 |---|---|
-| [chaos](tools/chaos) | UDP relay that adds lag, loss, reorder, duplicates and one-way cuts between real clients, with live control |
-| [flight](tools/flight) | Flight recorder for your mod plus an analyzer: lines up 2 to 4 machines, finds the first desync, shrinks it and writes a regression test |
-| [fuzz](tools/fuzz) | Seeded N-player co-op fuzzer with invariant oracles (converge, no double apply, one owner, no dupes, nothing stale) |
-| [ownership](tools/ownership) | Small C++ library: one owner per NPC with epochs, handoff, and stale echo rejection |
-| [fakeworld](tools/fakeworld) | Example in-memory game world for testing sync without launching the game |
-| [gameslot](tools/gameslot), [gamepool](tools/gamepool) | Lock and warm pool for running several game copies on one PC safely |
-| [scenarios](tools/scenarios), [bots](tools/bots) | JSON start states plus multi-bot co-op playbooks with a state diff after each step |
-| [animcheck](tools/animcheck) | Compares animation and pose across machines and flags sliding, T-poses, floating and rubber-banding |
-| [bridge](tools/bridge), [inspect](tools/inspect) | An RPC server template for inside your game (console line, state dump, save, load, screenshot) with a Python client, plus a live side-by-side view of every copy |
-| [hotreload](tools/hotreload) | Split your mod into a loader and a core, and swap the core inside the running games instead of restarting them |
-| [mutants](tools/mutants), [buildlock](tools/buildlock) | Runtime mutation twins for every fix, and a shared build lock with a build cache |
+| [chaos](pt-BR/tools/chaos) | Retransmissor UDP com controle ao vivo que introduz latência, perda, reordenação, duplicação e interrupções em apenas um sentido entre clientes reais |
+| [flight](pt-BR/tools/flight) | Gravador de eventos do mod com analisador: alinha 2 a 4 máquinas, encontra a primeira dessincronização, reduz o caso e escreve um teste de regressão |
+| [fuzz](pt-BR/tools/fuzz) | Fuzzer cooperativo para N jogadores com semente reproduzível e oráculos de invariantes: convergência, nenhuma aplicação dupla, um único responsável, nenhuma duplicata ou estado obsoleto |
+| [ownership](pt-BR/tools/ownership) | Pequena biblioteca C++: um responsável por NPC, com épocas, transferência de responsabilidade e rejeição de ecos obsoletos |
+| [fakeworld](pt-BR/tools/fakeworld) | Mundo de jogo de exemplo em memória para testar a sincronização sem iniciar o jogo |
+| [gameslot](pt-BR/tools/gameslot), [gamepool](pt-BR/tools/gamepool) | Trava e conjunto de instâncias já inicializadas para executar várias cópias do jogo com segurança em um PC |
+| [scenarios](pt-BR/tools/scenarios), [bots](pt-BR/tools/bots) | Estados iniciais em JSON e roteiros cooperativos com vários bots, com comparação de estado a cada etapa |
+| [animcheck](pt-BR/tools/animcheck) | Compara animações e poses entre máquinas e detecta deslizamentos, poses em T, flutuação e correções bruscas de posição |
+| [bridge](pt-BR/tools/bridge), [inspect](pt-BR/tools/inspect) | Modelo de servidor RPC interno ao jogo (comando de console, captura de estado, salvar, carregar, captura de tela) com cliente Python e visualização ao vivo de todas as cópias lado a lado |
+| [hotreload](pt-BR/tools/hotreload) | Separa o mod em carregador e núcleo e substitui o núcleo com os jogos em execução, sem reiniciá-los |
+| [mutants](pt-BR/tools/mutants), [buildlock](pt-BR/tools/buildlock) | Variantes de mutação em tempo de execução para cada correção e uma trava de compilação compartilhada com cache |
 
-[Fast iteration](playbook/fast-iteration.md) shows where the time in an in-game fix round goes and which tool removes each wait.
+[Iteração rápida](pt-BR/playbook/fast-iteration.md) mostra onde se gasta tempo em uma rodada de correção dentro do jogo e qual ferramenta elimina cada espera.
 
-They come from the [fnv-coop](https://github.com/cranebeaker/fnv-coop) project. The
-`coop-sync-testing` skill tells your agent when to use which.
+As ferramentas vêm do projeto [fnv-coop](https://github.com/cranebeaker/fnv-coop). A skill `coop-sync-testing` orienta o agente sobre quando usar cada uma.
 
-## What you can co-op
+<a id="what-you-can-co-op"></a>
+## O que você pode jogar em modo cooperativo
 
-| Your game is... | Typical approach | Tools your agent uses |
+| Seu jogo é... | Abordagem típica | Ferramentas usadas pelo agente |
 |---|---|---|
-| On an engine with multiplayer already (Unreal 1/2, Source, id Tech, X-Ray) | Make the single-player logic run on the existing netcode with script mods | Script source, SDK compilers, mod packages |
-| Bethesda (Gamebryo, Creation) | Script extender plugin, host-authority sync, reuse Tilted Online style designs | SKSE / F4SE / xNVSE, Ghidra, REA |
-| Unity | Harmony patches through a mod loader, a networking library in C# | BepInEx, MelonLoader, dnSpyEx, Il2CppDumper |
-| Unreal Engine 4/5 | Lua or C++ mods with an SDK dump of the game's classes | UE4SS, Dumper-7 |
-| RE Engine, FromSoftware, other proprietary | DLL hooks; extend the game's own online features where they exist | REFramework, MinHook, Ghidra, REA, x64dbg |
-| Decompiled or open source (N64 decomps, KeeperFX, OpenMW, source ports) | Add networking directly in the code | A compiler, the decomp, Docker cross builds |
-| Console only (PS1, PS2, N64, Dreamcast, GameCube, Wii, GBA, ...) | Decomp or recompiled PC port first; else emulator netplay, or a memory-sync mod between two emulators | Decomps and recompilers (N64Recomp, XenonRecomp), PCSX2 PINE, Dolphin Memory Engine, BizHawk / mGBA Lua |
-| Closed binary, nothing else | Full reverse engineering of state, saves and levels; the hardest path | REA, GhidraMCP, ida-pro-mcp, Frida, Cheat Engine |
+| Feito em um motor que já tem multiplayer (Unreal 1/2, Source, id Tech, X-Ray) | Fazer a lógica de um jogador funcionar no código de rede existente com mods de scripts | Código-fonte dos scripts, compiladores do SDK, pacotes de mods |
+| Bethesda (Gamebryo, Creation) | Plugin de extensão de scripts, sincronização com autoridade do host, reaproveitamento de arquiteturas como a do Tilted Online | SKSE / F4SE / xNVSE, Ghidra, REA |
+| Unity | Patches com Harmony por um carregador de mods e biblioteca de rede em C# | BepInEx, MelonLoader, dnSpyEx, Il2CppDumper |
+| Unreal Engine 4/5 | Mods Lua ou C++ com um dump de SDK das classes do jogo | UE4SS, Dumper-7 |
+| RE Engine, FromSoftware ou outro motor proprietário | Hooks em DLLs; ampliar os recursos on-line do próprio jogo quando existirem | REFramework, MinHook, Ghidra, REA, x64dbg |
+| Descompilado ou de código aberto (descompilações de N64, KeeperFX, OpenMW, ports de código-fonte) | Adicionar comunicação de rede diretamente no código | Compilador, projeto descompilado, compilação cruzada com Docker |
+| Exclusivo de console (PS1, PS2, N64, Dreamcast, GameCube, Wii, GBA, ...) | Primeiro um port para PC por descompilação ou recompilação; caso contrário, jogo em rede por emulador ou mod de sincronização de memória entre dois emuladores | Descompilações e recompiladores (N64Recomp, XenonRecomp), PCSX2 PINE, Dolphin Memory Engine, Lua no BizHawk / mGBA |
+| Binário fechado, sem outros recursos | Engenharia reversa completa do estado, salvamentos e fases; o caminho mais difícil | REA, GhidraMCP, ida-pro-mcp, Frida, Cheat Engine |
 
-Console games: [emulator co-op](playbook/console-emulators.md) and
-[decompiled or recompiled PC ports](playbook/decomp-and-recomp.md), the route Ocarina of Time co-op took.
+Jogos de console: [modo cooperativo em emuladores](pt-BR/playbook/console-emulators.md) e [ports para PC por descompilação ou recompilação](pt-BR/playbook/decomp-and-recomp.md), caminho seguido pelo modo cooperativo de Ocarina of Time.
 
-Couch co-op on one PC? [Split screen](playbook/split-screen.md) builds on Nucleus Co-op
-(Windows) and PartyDeck (Linux and Steam Deck), both open source.
+Modo cooperativo no sofá em um único PC? [Tela dividida](pt-BR/playbook/split-screen.md) usa Nucleus Co-op (Windows) e PartyDeck (Linux e Steam Deck), ambos de código aberto.
 
-Full tool list with install notes: [playbook/tools.md](playbook/tools.md).
-Which engine has co-op work you can reuse: [playbook/engine-families.md](playbook/engine-families.md).
+Lista completa de ferramentas com instruções de instalação: [playbook/tools.md](pt-BR/playbook/tools.md). Para descobrir quais motores têm projetos cooperativos reutilizáveis: [playbook/engine-families.md](pt-BR/playbook/engine-families.md).
 
-## Games so far
+<a id="games-so-far"></a>
+## Jogos até agora
 
-| Game | What was done | Release | Write-up |
+| Jogo | O que foi feito | Versão distribuída | Relato técnico |
 |---|---|---|---|
-| Deus Ex (2000) | Revived the HX co-op mod: fix package, Steam relay, automated test suite | [deus-ex-coop](https://github.com/cranebeaker/deus-ex-coop) | [games/deus-ex](games/deus-ex/README.md) |
-| Dungeon Keeper (1997) | Shared-keeper co-op on KeeperFX, Steam relay networking | [dungeon-keeper-coop](https://github.com/cranebeaker/dungeon-keeper-coop) | [games/dungeon-keeper](games/dungeon-keeper/README.md) |
-| S.T.A.L.K.E.R. Shadow of Chernobyl | Fix patch for Shadow of COOP (true ending unlocked) | [stalker-soc-coop-fixes](https://github.com/cranebeaker/stalker-soc-coop-fixes) | [games/stalker](games/stalker/README.md) |
-| Fallout: New Vegas | Story co-op: shared quests, dialogue results, karma and reputation | [fnv-coop](https://github.com/cranebeaker/fnv-coop) | [games/fallout-new-vegas](games/fallout-new-vegas/README.md) |
-| Zelda: Ocarina of Time | Fixes for a fully synced Ship of Harkinian co-op fork | [ocarina-coop](https://github.com/cranebeaker/ocarina-coop) | [games/ocarina-of-time](games/ocarina-of-time/README.md) |
+| Deus Ex (2000) | Retomada do mod cooperativo HX: pacote de correções, retransmissão pelo Steam e suíte de testes automatizados | [deus-ex-coop](https://github.com/cranebeaker/deus-ex-coop) | [games/deus-ex](pt-BR/games/deus-ex/README.md) |
+| Dungeon Keeper (1997) | Modo cooperativo com guardião compartilhado no KeeperFX e retransmissão pelo Steam | [dungeon-keeper-coop](https://github.com/cranebeaker/dungeon-keeper-coop) | [games/dungeon-keeper](pt-BR/games/dungeon-keeper/README.md) |
+| S.T.A.L.K.E.R. Shadow of Chernobyl | Patch de correções para Shadow of COOP (final verdadeiro desbloqueado) | [stalker-soc-coop-fixes](https://github.com/cranebeaker/stalker-soc-coop-fixes) | [games/stalker](pt-BR/games/stalker/README.md) |
+| Fallout: New Vegas | História cooperativa: missões, resultados de diálogos, carma e reputação compartilhados | [fnv-coop](https://github.com/cranebeaker/fnv-coop) | [games/fallout-new-vegas](pt-BR/games/fallout-new-vegas/README.md) |
+| Zelda: Ocarina of Time | Correções para um fork cooperativo totalmente sincronizado do Ship of Harkinian | [ocarina-coop](https://github.com/cranebeaker/ocarina-coop) | [games/ocarina-of-time](pt-BR/games/ocarina-of-time/README.md) |
 
-Plus a [directory of 230+ co-op mods and gaps](DIRECTORY.md) for other games (browse and search it at
-[coopanything.app](https://coopanything.app)), each with
-what it really syncs and how well it was tested.
+Há também um [diretório com mais de 230 mods cooperativos e lacunas](pt-BR/DIRECTORY.md) para outros jogos (consulte e pesquise em [coopanything.app](https://coopanything.app)), com o que cada projeto realmente sincroniza e o quanto foi testado.
 
-## Everyone is a contributor
+<a id="everyone-is-a-contributor"></a>
+## Todos podem contribuir
 
-Every agent that works on a game sends what it learned back as a pull request: a fix, a
-bug list, a test, a failed attempt, a corrected directory entry. One person's agent gets a
-game halfway; the next one starts from there. Pooled together, that's enough compute to get
-even the biggest games over the line.
+Cada agente que trabalha em um jogo devolve o que aprendeu por meio de uma pull request: uma correção, lista de bugs, teste, tentativa que não deu certo ou entrada corrigida no diretório. O agente de uma pessoa avança até certo ponto; o próximo continua dali. Somando esse esforço computacional, até os maiores jogos podem chegar lá.
 
-- Your agent opens the PR as a draft; you review the diff and publish it.
-- Each game gets its own release repo, linked from [Games so far](#games-so-far).
-- The **QA level** on every entry says how it was proven: untested, player reports,
-  automated tests (bots drove real game clients) or verified playthrough.
+- Seu agente abre a PR como rascunho; você revisa as diferenças e a publica.
+- Cada jogo recebe seu próprio repositório de distribuição, com link em [Jogos até agora](#games-so-far).
+- O **nível de QA** de cada entrada informa como ela foi comprovada: sem testes, relatos de jogadores, testes automatizados (bots controlando clientes reais do jogo) ou campanha completa verificada.
 
-[CONTRIBUTING.md](CONTRIBUTING.md) has the details. Chat with other contributors on [Discord](https://discord.gg/EXGB49R82t).
+[CONTRIBUTING.md](pt-BR/CONTRIBUTING.md) traz os detalhes. Converse com outros colaboradores no [Discord](https://discord.gg/EXGB49R82t).
 
-## FAQ
+<a id="faq"></a>
+## Perguntas frequentes
 
-<details><summary>Do I need to know how to code?</summary>
-No. You need the game, a coding agent and some patience. The agent asks before installing
-anything or using your accounts.
+<details><summary>Preciso saber programar?</summary>
+Não. Você precisa do jogo, de um agente de programação e de um pouco de paciência. O agente pede autorização antes de instalar qualquer coisa ou usar suas contas.
 </details>
 
-<details><summary>Does my friend need to buy anything?</summary>
-Everyone needs the game installed. The Steam relay uses Valve's free Spacewar test
-app, so nobody buys anything else.
+<details><summary>Meu amigo precisa comprar algo?</summary>
+Todos precisam ter o jogo instalado. A retransmissão pelo Steam usa o aplicativo de testes gratuito Spacewar, da Valve; ninguém precisa comprar mais nada.
 </details>
 
-<details><summary>Is this legal?</summary>
-Modding games for co-op with friends is what the modding community has always done.
-This repo doesn't host game files or assets (agents can build on decompiled code in each
-game's own repo), and it doesn't touch anti-cheat or online services. See the rules below.
+<details><summary>Isso é legal?</summary>
+Modificar jogos para jogar em modo cooperativo com amigos é algo que a comunidade de mods sempre fez. Este repositório não hospeda arquivos nem recursos de jogos (agentes podem trabalhar com código descompilado no repositório próprio de cada jogo) e não interfere em sistemas antitrapaça ou serviços on-line. Consulte as regras abaixo.
 </details>
 
-<details><summary>Will it work for my game?</summary>
-Yes. Some games need more agent hours than others, but it's definitely possible. Check the
-<a href="DIRECTORY.md">directory</a> first: if a co-op mod already exists (path 1), most
-projects take days at most. If nothing exists (path 2), it depends on the engine; the table
-above gives a feel for it.
+<details><summary>Vai funcionar com o meu jogo?</summary>
+Sim. Alguns jogos exigem mais horas de trabalho do agente do que outros, mas é possível. Consulte primeiro o <a href="pt-BR/DIRECTORY.md">diretório</a>: se já existe um mod cooperativo (caminho 1), a maioria dos projetos leva no máximo alguns dias. Se não existe nada (caminho 2), depende do motor; a tabela acima dá uma ideia.
 </details>
 
-## Documentation
+<a id="documentation"></a>
+## Documentação
 
-- [AGENTS.md](AGENTS.md): rules and phase map for agents · [MCP server](playbook/mcp.md) · [skills](.agents/skills) · [sync test tools](tools/README.md)
-- Playbook: [triage](playbook/triage.md) · [research](playbook/research.md) ·
-  [Discord bug mining](playbook/discord-export.md) · [reverse engineering](playbook/reverse-engineering.md) ·
-  [tools](playbook/tools.md) · [how co-op mods work](playbook/how-coop-mods-work.md) ·
-  [engine families](playbook/engine-families.md) · [reviving mods](playbook/reviving-abandoned-mods.md) ·
-  [networking](playbook/networking.md) · [Steam Spacewar relay](playbook/networking-steam-spacewar.md) ·
-  [split screen](playbook/split-screen.md) · [console emulators](playbook/console-emulators.md) · [Switch](playbook/switch.md) ·
-  [decomp and recomp](playbook/decomp-and-recomp.md) ·
-  [automated QA](playbook/automated-qa.md) · [shipping to players](playbook/shipping-to-players.md) · [multi-agent workflows](playbook/multi-agent-workflows.md) ·
-  [network chaos](playbook/network-chaos-testing.md) · [desync hunting](playbook/desync-hunting.md) ·
-  [fuzzing sync](playbook/fuzzing-coop-sync.md) · [actor ownership](playbook/actor-ownership.md) ·
-  [fake world testing](playbook/fake-world-testing.md) · [several game copies](playbook/multi-instance-testing.md) ·
-  [bots and playbooks](playbook/bots-and-playbooks.md) · [animation sync](playbook/animation-sync-checks.md) ·
-  [fast iteration](playbook/fast-iteration.md) · [in-game bridge](playbook/in-game-bridge.md) · [hot reload](playbook/hot-reloading-your-mod.md) ·
-  [story sync by effects](playbook/effect-capture-story-sync.md) ·
-  [methods](playbook/methods.md) · [lessons](playbook/lessons.md)
-- [DIRECTORY.md](DIRECTORY.md) and its [schema](data/SCHEMA.md)
+- [AGENTS.md](pt-BR/AGENTS.md): regras e mapa de etapas para agentes · [servidor MCP](pt-BR/playbook/mcp.md) · [skills](pt-BR/.agents/skills) · [ferramentas de teste de sincronização](pt-BR/tools/README.md)
+- Guias: [triagem](pt-BR/playbook/triage.md) · [pesquisa](pt-BR/playbook/research.md) · [levantamento de bugs no Discord](pt-BR/playbook/discord-export.md) · [engenharia reversa](pt-BR/playbook/reverse-engineering.md) · [ferramentas](pt-BR/playbook/tools.md) · [como funcionam os mods cooperativos](pt-BR/playbook/how-coop-mods-work.md) · [famílias de motores](pt-BR/playbook/engine-families.md) · [retomada de mods](pt-BR/playbook/reviving-abandoned-mods.md) · [rede](pt-BR/playbook/networking.md) · [retransmissão Steam Spacewar](pt-BR/playbook/networking-steam-spacewar.md) · [tela dividida](pt-BR/playbook/split-screen.md) · [emuladores de console](pt-BR/playbook/console-emulators.md) · [Switch](pt-BR/playbook/switch.md) · [descompilação e recompilação](pt-BR/playbook/decomp-and-recomp.md) · [QA automatizado](pt-BR/playbook/automated-qa.md) · [distribuição aos jogadores](pt-BR/playbook/shipping-to-players.md) · [fluxos com vários agentes](pt-BR/playbook/multi-agent-workflows.md) · [caos de rede](pt-BR/playbook/network-chaos-testing.md) · [busca de dessincronizações](pt-BR/playbook/desync-hunting.md) · [fuzzing da sincronização](pt-BR/playbook/fuzzing-coop-sync.md) · [responsabilidade sobre atores](pt-BR/playbook/actor-ownership.md) · [testes com mundo simulado](pt-BR/playbook/fake-world-testing.md) · [várias cópias do jogo](pt-BR/playbook/multi-instance-testing.md) · [bots e roteiros](pt-BR/playbook/bots-and-playbooks.md) · [sincronização de animações](pt-BR/playbook/animation-sync-checks.md) · [iteração rápida](pt-BR/playbook/fast-iteration.md) · [ponte dentro do jogo](pt-BR/playbook/in-game-bridge.md) · [recarregamento do mod em execução](pt-BR/playbook/hot-reloading-your-mod.md) · [sincronização da história por efeitos](pt-BR/playbook/effect-capture-story-sync.md) · [métodos](pt-BR/playbook/methods.md) · [lições](pt-BR/playbook/lessons.md)
+- [DIRECTORY.md](pt-BR/DIRECTORY.md) e seu [esquema](pt-BR/data/SCHEMA.md)
 
-## Rules
+<a id="rules"></a>
+## Regras
 
-Don't commit game files or assets here. Building on decomps is fine; a game's code lives in its own repo. No
-personal info. Credit the mods you build on and give fixes back to them. Co-op only:
-nothing that cheats in other people's multiplayer games or touches anti-cheat.
+Não inclua arquivos ou recursos de jogos em commits neste repositório. É permitido trabalhar a partir de descompilações; o código de cada jogo fica em seu próprio repositório. Não inclua informações pessoais. Dê crédito aos mods em que se basear e devolva as correções aos projetos originais. Somente modo cooperativo: nada que permita trapacear nas partidas multiplayer de outras pessoas ou interfira em sistemas antitrapaça.
 
-License: MIT.
+Licença: MIT.

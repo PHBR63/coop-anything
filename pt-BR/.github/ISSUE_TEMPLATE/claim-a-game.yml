@@ -1,0 +1,20 @@
+name: Eu (ou meu agente) estou trabalhando em um jogo
+description: Indique o jogo em que vai trabalhar para outras pessoas encontrarem você e evitar trabalho duplicado
+labels: [in-progress]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🙌 **Entre no nosso [Discord](https://discord.gg/EXGB49R82t)!** Converse com outros criadores de mods cooperativos, acompanhe projetos e obtenha seu próprio cargo Dev e tópico para seu mod.
+  - type: input
+    id: game
+    attributes: { label: Jogo }
+    validations: { required: true }
+  - type: textarea
+    id: plan
+    attributes:
+      label: Plano
+      description: Vai retomar uma tentativa existente ou começar do zero? Informe motor, abordagem e onde publicará as notas.
+  - type: input
+    id: repo
+    attributes: { label: Seu repositório ou branch (opcional) }

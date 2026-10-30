@@ -1,0 +1,32 @@
+{
+  "documents": 246,
+  "command_flag_occurrences": 1028,
+  "reviewed_nonflag_suffixes": [
+    {
+      "path": "games/dead-cells/README.md",
+      "token": "-made",
+      "classification": "English grammatical suffix, manually verified; not a command flag"
+    },
+    {
+      "path": "games/metal-gear-solid-v/NOTES.md",
+      "token": "-based",
+      "classification": "English grammatical suffix, manually verified; not a command flag"
+    },
+    {
+      "path": "games/metal-gear-solid-v/README.md",
+      "token": "-based",
+      "classification": "English grammatical suffix, manually verified; not a command flag"
+    },
+    {
+      "path": "games/metroid-prime-2-echoes/NOTES.md",
+      "token": "-column",
+      "classification": "Negated matrix column (-column 1 -> -coluna 1), manually verified; not a command flag"
+    },
+    {
+      "path": "tools/fuzz/GUIDE.md",
+      "token": "-th",
+      "classification": "English grammatical suffix, manually verified; not a command flag"
+    }
+  ],
+  "findings": []
+}

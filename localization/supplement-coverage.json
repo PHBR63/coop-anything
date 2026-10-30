@@ -1,0 +1,20 @@
+{
+  "scope_non_markdown_files": 303,
+  "reserved_paths_untouched": [
+    "tools/flight/run_tests.py"
+  ],
+  "licensed_or_vendored_files_preserved": 15,
+  "binary_files_preserved": 4,
+  "candidate_comment_tokens": 2590,
+  "initial_unchanged_comment_occurrences": 474,
+  "translated_files": 97,
+  "comment_occurrences_translated": 213,
+  "human_literals_translated": 17,
+  "preserved_comment_occurrences": 264,
+  "preserved_literal_candidates": 29,
+  "structured_files_checked": 20,
+  "human_data_differences": 406,
+  "structured_errors": [],
+  "no_project_code_executed": true,
+  "no_markdown_changes": true
+}

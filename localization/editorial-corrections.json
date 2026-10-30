@@ -1,0 +1,13 @@
+{
+  "status": "resolved",
+  "ids": [
+    "MD-001",
+    "MD-002",
+    "MD-003"
+  ],
+  "files": [
+    "games/modern-warfare-2/README.md",
+    "games/nier-automata/NOTES.md"
+  ],
+  "description": "Corrected blown cover to disfarce descoberto; restored four copies and running test copy qualifiers. No commands, identifiers or heading counts changed."
+}

@@ -1,0 +1,16 @@
+{
+  "_notes": "Exemplo executável: código Python sob teste em tests/py_under_test.py. Execute da raiz do repositório com: python -I tools/mutants/run_twins.py tools/mutants/twins.example.json",
+  "label": "exemplo",
+  "cmd": ["python", "-I", "tests/py_under_test.py", "{test}"],
+  "real_regex": ", 0 failed",
+  "caught_regex": ", [1-9][0-9]* failed",
+  "timeout_s": 60,
+  "jobs": 2,
+  "scan": ["tests/py_under_test.py"],
+  "tests": ["test_add", "test_first_word", "test_clamp"],
+  "twins": {
+    "py_add_wrong_operator": "test_add",
+    "py_first_word_whole_text": "test_first_word",
+    "7": "test_clamp"
+  }
+}
